@@ -150,8 +150,8 @@ export default function Photography({ res }) {
                 >
                   <Image
                     src={img.url.replace(
-                      "https://res.cloudinary.com/thegobindsingh/image/upload",
-                      "https://res.cloudinary.com/thegobindsingh/image/upload/q_25"
+                      "https://res.cloudinary.com/",
+                      "https://res.cloudinary.com/"
                     )}
                     alt={`${text.my_name} | ${text.extra_heading} | Extracurricular | Extra-curricular`}
                     fill
