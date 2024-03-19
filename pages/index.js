@@ -129,6 +129,7 @@ export default function Main({ footerData, photographyData }) {
       }
     }
   }, [router]);
+  console.log("hi");
   return (
     <div id="main">
       <Head>
