@@ -1,0 +1,152 @@
+#about {
+  & > .contentful {
+    display: flex;
+    opacity: 0;
+    height: 490px;
+    & > div {
+      height: 100%;
+      // max-width: 550px;
+      margin: 0 10px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    h2 {
+      &::after {
+        width: 12.5vw;
+      }
+    }
+    span {
+      font-size: 1.05rem;
+    }
+    li {
+      font-size: 0.9rem;
+    }
+  }
+  .about-me {
+    max-width: 525px;
+    article {
+      width: 100%;
+      color: var(--primary-white-one);
+
+      span {
+        line-height: 25px;
+      }
+    }
+    & > span {
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    ul {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      row-gap: 10px;
+      li {
+        font-family: var(--font-mono);
+      }
+    }
+  }
+  .about-photo {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    isolation: isolate;
+    .imgContainer {
+      $borRad: 10px;
+      height: 300px;
+      width: 300px;
+      position: relative;
+      border: 2px solid var(--secondary-grey-two);
+      border-radius: $borRad;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.2s ease-out;
+      &:hover,
+      &:focus {
+        border: 2px solid var(--secondary-grey-one);
+      }
+      .nextImg {
+        object-fit: cover;
+        z-index: 1;
+        border-radius: $borRad;
+        overflow: hidden;
+      }
+      &::before {
+        border-radius: $borRad;
+        position: absolute;
+        content: "";
+        z-index: 2;
+        height: 100%;
+        width: 100%;
+        background-color: var(--secondary-grey-one);
+        mix-blend-mode: color;
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.2s ease-out;
+      }
+      &::after {
+        border-radius: $borRad;
+        position: absolute;
+        content: "";
+        z-index: -1;
+        transform: translate(20px, 20px);
+        height: 100%;
+        width: 100%;
+        // background-color: aquamarine;
+        border: 2px solid var(--secondary-grey-one);
+        transition: all 0.2s ease-out;
+      }
+      &:hover::before,
+      &:focus::before {
+        opacity: 0;
+        visibility: hidden;
+      }
+      &:hover::after,
+      &:focus::after {
+        border: 2px solid var(--secondary-grey-two);
+        transform: translate(15px, 15px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #about {
+    // width: auto !important;
+
+    // padding-bottom: 0 !important;
+
+    & > .contentful {
+      flex-direction: column;
+      height: fit-content;
+      h2 {
+        font-size: 1.7rem;
+        &::after {
+          width: 20vw;
+        }
+      }
+      & > div {
+        height: auto;
+        width: auto;
+      }
+    }
+
+    .about-me {
+      padding-bottom: 30px;
+    }
+    .about-photo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .imgContainer {
+        $borRad: 10px;
+        height: 200px;
+        width: 200px;
+      }
+    }
+  }
+}

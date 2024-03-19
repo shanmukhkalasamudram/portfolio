@@ -1,0 +1,271 @@
+{
+  "my_name": "K V Shanmukha Sai",
+  "my_resume_file": "resume.pdf",
+  "resume": "https://firebasestorage.googleapis.com/v0/b/portfolio-6d822.appspot.com/o/resume.pdf?alt=media",
+  "my_email": "shanmukhkalasamudram@gmail.com",
+  "my_whatsapp": "+919494472861",
+  "my_github": "shanmukhkalasamudram",
+  "my_instagram": "mr.shanmukh87",
+  "my_linkedin": "shanmukhasai-k-v-4bb1a2167",
+  "home_hello": "Hi, my name is",
+  "home_sub_heading": "Architecting Robust Backend Solutions.",
+  "home_desc": "As a software engineer specializing in backend development, I craft robust solutions to form the foundation for exceptional digital experiences.",
+  "home_links": [
+    {
+      "text": "exceptional digital experiences",
+      "link": "https://www.linkedin.com/in/shanmukhasai-k-v-4bb1a2167/"
+    }
+  ],
+  "about_me": "Hey there! I'm Shanmukhasai K V, a laid-back yet results-driven Software Engineer. Currently rocking it as a SDE II at Bajaj Finserv Health. I specialize in crafting scalable microservices and turbocharging REST APIs for high performance. Beyond coding, you'll often find me mentoring and guiding team members towards awesome, collaborative outcomes.\n\n Oh, and did I mention? I'm not just a backend maestro; I've got the React magic up my sleeves, too, building sleek front-end experiences.\n\n When I'm not deep in code, I'm diving into the realms of Stock Exchanges, keeping an eye on current politics, and pondering over social issues. Let's build something cool together!",
+  "about_me_exp": ["Node.js","Next.js", "React", "Database- Mysql, Mongo", "AKS & Docker","Event Driven Archs"],
+  "exp": [
+    {
+      "Frameworks": ["Node.js","Express.js","NestJs","Next.js"]
+    },
+    {
+      "Programming Languages": ["Js","Ts","Java"]
+    },
+    {
+      "Database": ["MySQL","MongoDB","Redis","Elastic Search"]
+    },
+    {
+      "Hands-on": ["Kafka","AKS","Docker","Service Bus","Cron Jobs"]
+    }
+  ],
+  "about_photo_name": "https://firebasestorage.googleapis.com/v0/b/portfolio-6d822.appspot.com/o/about_me.png?alt=media",
+  "about_me_links": [
+    {"text": "Bajaj Finserv Health", "link": "https://bajajfinservhealth.in"},
+    {"text": "Sedaux Technology Private Limited", "link": "https://sedaux.com/"},
+    {"text": "House of Babas", "link": "https://www.houseofbabas.com/category/adventure/"}
+  ],
+  "experience_heading": "Where I've Worked",
+  "experiences": [
+    {
+      "company": "Bajaj Finserv Health",
+      "time_line": [
+        {
+          "role": "Software Development Engineer",
+          "company": "Bajaj Finserv Health",
+          "duration": "August 2023 - Present",
+          "website": "https://www.bajajfinservhealth.in/",
+            "list": [
+              "Contributed significantly to backend development and solutioning, while personalizing Hrx Engagement solutions to drive the Bajaj Health App/Web Homepage, serving over 2 million Indians",
+              "Spearheaded the development of major backend features, including Wellness OPT IN, BALIC - Circle of Care and TVS Chronic Care.",
+              "Conduct code reviews, assist reportees, mentoring, guiding, and efficiently distributing work to foster a collaborative and productive work environment, maintaining zero downtime"
+            ]
+        },
+        {
+          "role": "Associate Software Development Engineer",
+          "company": "Bajaj Finserv Health",
+          "duration": "July 2022 - July 2023",
+          "website": "https://www.bajajfinservhealth.in/",
+            "list": [
+              "Responsible for overseeing the development of Wellness Backend Modules, offering functionalities including Mental Wellness, Diet, Fitness, and Trackers for B2B and retail users, catering to over 300+ GMC's and serving more than 100K users",
+            "Spearheaded the development of major backend features, including Wellness OPT IN, BALIC - Circle of Care and TVS Chronic Care.",
+              "Implemented essential features for the Reward Framework, such as Vouchers and Health Coins for B2C Transactions, achieving an impressive 99.9% uptime"
+            ]
+        },
+        {
+          "role": "Software Development Intern",
+          "company": "Bajaj Finserv Health",
+          "duration": "January 2022 - June 2022",
+          "website": "https://www.bajajfinservhealth.in/",
+            "list": [
+              "Developed a Content Management System from the ground up and seamlessly integrated Hrx CMS with Hrx Strapi, a PM-driven platform, effectively reducing the dependency period from 15 days to just 2 days.",
+              "I was recognized as one of the Top 12 performers from the BYTE 22 Batch selection process among 400+ interns."
+            ]
+        }
+      ]
+    },
+    {
+      "company": "Sedaux Technology",
+      "time_line": [
+        {
+           "role": "Fullstack Web Development - Intern",
+      "company": "Sedaux Technology",
+      "duration": "March 2021 - May 2021",
+      "website": "https://sedaux.com/",
+      "list": [
+        "Designed and developed a full-stack website for the client 'The Investico' within a tight deadline of 10 days, utilizing the MERN stack and deploying it on AWS.",
+        "Sedaux is registered Information Technology company providing IT consulting, Business Consulting"
+      ]
+        }
+      ]
+    },
+    {
+      "company": "HumourBaba",
+      "time_line": [
+        {
+           "role": "Software Development Intern",
+      "company": "HumourBaba Technology",
+      "duration": "December 2020 - March 2021",
+      "website": "http://www.houseofbabas.com/",
+      "list": [
+        "Engaged in software development internship at Humourbaba (now House of Babas)",
+        "Built backend for cart management for mobile covers and merchandise.Worked extensively with MongoDB and Node.js",
+        "Humourbaba is a venture incubated under VIT University's Technology Business Incubator (TBI)"
+      ]
+        }
+      ]
+    }
+  ],
+  "education_heading": "Learning Pathways",
+  "education": [
+    {
+      "company": "Vellore Institute of Technology",
+      "duration": "July 2018 - May 2022",
+      "cgpa": "CGPA - 8.99 / 10",
+      "major": "Bachelors in Computer Science and Engineering",
+      "address": "VIT University, Katpadi, Vellore- 632014",
+      "country": "Tamilnadu,India",
+      "website": "https://vit.ac.in/",
+       "picture": "https://firebasestorage.googleapis.com/v0/b/portfolio-6d822.appspot.com/o/Education%2Fvit1.jpeg?alt=media"
+    },
+    {
+      "company": "Narayana Junior College",
+      "duration": "July 2016 - May 2018",
+      "cgpa": "Marks - 969 / 1000",
+      "major": "Board of Intermediate Education - MPC",
+      "address": "Narayana Group of Institutions, Vivekanand Nagar, Hyderabad, - 500072",
+      "country": "Telangana,India",
+      "website": "https://www.narayanagroup.com/",
+       "picture": "https://firebasestorage.googleapis.com/v0/b/portfolio-6d822.appspot.com/o/Education%2Fnarayana.png?alt=media"
+    },
+     {
+      "company": "Viswabharathi High School",
+      "duration": "July 2014 - April 2016",
+      "cgpa": "CGPA - 9.7 / 10",
+      "major": "Secondary Education, High School",
+      "address": "Rajendra Nagar, Gudivada, Krishna Dist- 521301",
+      "country": "Andhrapradesh,India",
+      "website": "https://viswabharati.org/",
+       "picture": "https://firebasestorage.googleapis.com/v0/b/portfolio-6d822.appspot.com/o/Education%2Fvb.jpeg?alt=media"
+    }
+  ],
+  "work_heading": "My Creative Ventures",
+  "work_projects": [
+    {
+      "title": "Anomaly Detection Using Unsupervised Machine Learning Algorithms",
+      "desc": "Predicting the anomaly in a machine, given the details about its engine and sensors using Principal Component Analysis(PCA) and Autoencoders. Chapter accepted for a Springer book: Deep Learning for Security and Privacy Preservation in IoT(DeepIot2021)",
+      "tech_stack": ["PCA", "Autoencoders", "Machine Learning", "Springer"],
+      "links": {
+        "website": "https://link.springer.com/chapter/10.1007/978-981-16-6186-0_6",
+        "github": "https://github.com/shanmukhkalasamudram/anamoly-detection-using-PCA-and-autoencoder"
+      },
+      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+    },
+    {
+      "title": "Framework for Disease Detection",
+      "desc": "A platform where the framework will assist the needed people related to diseases, doctors, symptoms and help predict a disease with 95% accuracy.",
+      "tech_stack": ["HTML", "CSS", "JavaScript", "Python", "NLP", "ML", "Flask", "Selenium"],
+      "links": {
+        "github": "https://github.com/shanmukhkalasamudram/Framework-for-Disease-Detection-and-Assistance"
+      },
+      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+    },
+    {
+      "title": "Phishing Website Detection using Emerging Machine Learning Models",
+      "desc": "Compared 9 Machine Learning Algorithms for predicting if the given website is a phishing website or not.",
+      "tech_stack": ["Machine Learning", "flask", "python", "SSRN"],
+      "links": {
+        "website": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3853016",
+        "github": "https://github.com/shanmukhkalasamudram/Malware-Detection-with-Flask"
+      },
+      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+    },
+    {
+      "title": "Idea Invest Implement",
+      "desc": "A web portal allowing sponsors to explore startup ideas and potentially sponsor ventures scalable to over 10,000 products.",
+      "tech_stack": ["HTML", "CSS", "JS", "PHP", "Mysql"],
+      "links": {
+        "github": "https://github.com/shanmukhkalasamudram/III-WEB-APPLICATION-"
+      },
+      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+    },
+    {
+      "title": "Digital Election System",
+      "desc": "Introduced a pioneering platform for online voting, integrating state-of-the-art Face Recognition technology for secure identity verification, resulting in a participation increase of over 30% compared to traditional methods.",
+      "tech_stack": ["HTML", "CSS", "Nodejs", "BlockChain", "Azure Face Reg", "Mongo Database"],
+      "links": {
+        "github": "https://github.com/BhargavaramMuppuru/THE-DIGITAL-ELECTION-SYSTEM"
+      },
+      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+    },
+    {
+      "title": "Analysis of Lip Biometry on Handheld OS",
+      "desc": "In this research, we analyzed various techniques of lip biometric algorithms and their compatibility with operating systems.",
+      "tech_stack": ["Lip Biometry", "IRJET"],
+      "links": {
+        "website": "https://www.irjet.net/archives/V8/i7/IRJET-V8I7776.pdf"
+      },
+      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+    }
+  ],
+  "articles": [
+    {
+      "test": [ 
+     {
+      "title": "Anomaly Detection Using Unsupervised Machine Learning Algorithms",
+      "desc": "Predicting the anomaly in a machine, given the details about its engine and sensors using Principal Component Analysis(PCA) and Autoencoders. Chapter accepted for a Springer book: Deep Learning for Security and Privacy Preservation in IoT(DeepIot2021)",
+      "tech_stack": ["PCA", "Autoencoders", "Machine Learning", "Springer"],
+      "links": {
+        "website": "https://link.springer.com/chapter/10.1007/978-981-16-6186-0_6",
+        "github": "https://github.com/shanmukhkalasamudram/anamoly-detection-using-PCA-and-autoencoder"
+      },
+      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+    },
+    {
+      "title": "Anomaly Detection Using Unsupervised Machine Learning Algorithms",
+      "desc": "Predicting the anomaly in a machine, given the details about its engine and sensors using Principal Component Analysis(PCA) and Autoencoders. Chapter accepted for a Springer book: Deep Learning for Security and Privacy Preservation in IoT(DeepIot2021)",
+      "tech_stack": ["PCA", "Autoencoders", "Machine Learning", "Springer"],
+      "links": {
+        "website": "https://link.springer.com/chapter/10.1007/978-981-16-6186-0_6",
+        "github": "https://github.com/shanmukhkalasamudram/anamoly-detection-using-PCA-and-autoencoder"
+      },
+      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+    },
+    {
+      "title": "Anomaly Detection Using Unsupervised Machine Learning Algorithms",
+      "desc": "Predicting the anomaly in a machine, given the details about its engine and sensors using Principal Component Analysis(PCA) and Autoencoders. Chapter accepted for a Springer book: Deep Learning for Security and Privacy Preservation in IoT(DeepIot2021)",
+      "tech_stack": ["PCA", "Autoencoders", "Machine Learning", "Springer"],
+      "links": {
+        "website": "https://link.springer.com/chapter/10.1007/978-981-16-6186-0_6",
+        "github": "https://github.com/shanmukhkalasamudram/anamoly-detection-using-PCA-and-autoencoder"
+      },
+      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+    }
+
+      ]
+    },
+    {
+      "test": [ 
+        {
+        "title": "Framework for Disease Detection",
+        "desc": "A platform where the framework will assist the needed people related to diseases, doctors, symptoms and help predict a disease with 95% accuracy.",
+        "tech_stack": ["HTML", "CSS", "JavaScript", "Python", "NLP", "ML", "Flask", "Selenium"],
+        "links": {
+          "github": "https://github.com/shanmukhkalasamudram/Framework-for-Disease-Detection-and-Assistance"
+        },
+        "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+        },
+     {
+      "title": "Anomaly Detection Using Unsupervised Machine Learning Algorithms",
+      "desc": "Predicting the anomaly in a machine, given the details about its engine and sensors using Principal Component Analysis(PCA) and Autoencoders. Chapter accepted for a Springer book: Deep Learning for Security and Privacy Preservation in IoT(DeepIot2021)",
+      "tech_stack": ["PCA", "Autoencoders", "Machine Learning", "Springer"],
+      "links": {
+        "website": "https://link.springer.com/chapter/10.1007/978-981-16-6186-0_6",
+        "github": "https://github.com/shanmukhkalasamudram/anamoly-detection-using-PCA-and-autoencoder"
+      },
+      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+    }
+
+      ]
+    }
+  ],
+  "extra_heading": "Panorama",
+  "extra_link": "https://photos.app.goo.gl/U8yYDxEZQ5dEuqF19",
+  "cont_heading_one": "What's Next?",
+  "cont_heading_two": "Get In Touch.",
+  "cont_desc": "My inbox is always open for interesting discussions and connections. Feel free to reach out with anything intriguing or just to say hello. Looking forward to engaging conversations!",
+  "cont_email_btn": "Say Hello"
+}

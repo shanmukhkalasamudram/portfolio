@@ -1,0 +1,214 @@
+#extra-curricular {
+  padding: 0 !important;
+  .contentful-different {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: -1;
+    a::after {
+      content: none;
+    }
+    h2,
+    span {
+      z-index: 999;
+      color: white;
+      position: absolute;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+    h2 {
+      &::after {
+        content: none;
+      }
+      color: var(--secondary-grey-one);
+    }
+    .pictures {
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+      z-index: -9999;
+      .photo-carousel {
+        height: 100%;
+        width: 100%;
+        ul {
+          align-items: center;
+          li {
+            height: 100vh;
+            background: #606060; /* Old browsers */
+            background: -moz-radial-gradient(
+              center,
+              ellipse cover,
+              #606060 0%,
+              #333333 100%
+            ); /* FF3.6-15 */
+            background: -webkit-radial-gradient(
+              center,
+              ellipse cover,
+              #606060 0%,
+              #333333 100%
+            ); /* Chrome10-25,Safari5.1-6 */
+            background: radial-gradient(
+              ellipse at center,
+              #606060 0%,
+              #333333 100%
+            ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606060', endColorstr='#333333',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+          }
+          li::before {
+            content: none;
+          }
+          .gallery-img-container {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            // .gallery-img {
+            // padding: 5px;
+            // }
+          }
+        }
+      }
+      .react-multi-carousel-item--active,
+      .react-multi-carousel-item--active * {
+        transition: height 0.425s ease-in-out, transform 0.425s ease-in-out,
+          padding 0.425s ease-in-out;
+      }
+    }
+    .btns {
+      position: absolute;
+      z-index: 999;
+      bottom: 9%;
+      left: calc(50% - 200px / 2);
+      // background-color: red;
+      width: 200px;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        margin: 10px 20px;
+        cursor: pointer;
+        background: var(--secondary-grey-one);
+        padding: 10px;
+        border: 0px solid black;
+        border-radius: 50%;
+        box-shadow: 0 0 15px -3px white;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+      }
+    }
+  }
+}
+@media screen and (min-width: 900px) {
+  #extra-curricular {
+    .contentful-different {
+      &::before {
+        content: "";
+        height: 25%;
+        width: 100%;
+        // background-color: var(--primary-grey-two);
+        background: linear-gradient(
+          var(--primary-grey-one),
+          var(--primary-grey-two)
+        );
+        position: absolute;
+        top: 0;
+        left: 0%;
+        z-index: 0;
+        border-radius: 25% 25% 50% 50% / 0% 0% 100% 100%;
+      }
+      &::after {
+        content: "";
+        height: 25%;
+        width: 100%;
+        // background-color: var(--primary-grey-two);
+        background: linear-gradient(
+          var(--primary-grey-two),
+          var(--primary-grey-one)
+        );
+        position: absolute;
+        bottom: 0;
+        left: 0%;
+        z-index: 0;
+        border-radius: 50% 50% 25% 25% / 100% 100% 0% 0%;
+      }
+      h2,
+      span {
+        width: 20vw;
+        left: calc(50% - 20vw / 2);
+      }
+      h2 {
+        top: 12.5%;
+        font-size: 1.25rem;
+        font-weight: normal;
+      }
+      span {
+        top: 17.5%;
+        font-size: 2rem;
+        letter-spacing: 5px;
+        font-weight: 600;
+      }
+      .pictures {
+        .photo-carousel {
+          ul {
+            .middle-pic {
+              height: 55vh;
+              padding: 10px;
+            }
+            .gallery-img-container {
+              .gallery-img {
+                object-fit: cover;
+              }
+            }
+            .middle-pic {
+              padding: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  #extra-curricular {
+    .contentful-different {
+      h2,
+      span {
+        width: 20vw;
+        left: calc(50% - 20vw / 2);
+      }
+      h2 {
+        top: 13%;
+        font-size: 1rem;
+        font-weight: normal;
+      }
+      span {
+        top: 17.5%;
+        font-size: 1.3rem;
+        letter-spacing: 5px;
+        font-weight: 600;
+      }
+      .pictures {
+        .photo-carousel {
+          ul {
+            li {
+              height: 50vh;
+            }
+            .middle-pic {
+              height: 50vh;
+            }
+            .gallery-img-container {
+              .gallery-img {
+                object-fit: contain;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

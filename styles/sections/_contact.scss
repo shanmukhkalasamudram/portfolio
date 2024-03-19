@@ -1,0 +1,144 @@
+#contact {
+  flex-direction: column;
+  justify-content: unset;
+  // border-top: 1px solid var(--secondary-grey-one);
+  & > .contentful {
+    max-width: 550px;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & > * {
+      text-align: center;
+      width: fit-content;
+    }
+    h2 {
+      font-weight: normal;
+      font-size: large;
+      font-family: var(--font-mono);
+      color: var(--secondary-grey-one);
+      margin: 0;
+    }
+    & > span {
+      font-family: var(--font-sans-poppins);
+      font-weight: 600;
+      font-size: 4rem;
+      color: white;
+      margin: 0;
+    }
+    & > p {
+      margin-top: 20px;
+      margin-bottom: 50px;
+      color: white;
+      opacity: 0.7;
+    }
+    & > a {
+      height: auto;
+      width: fit-content;
+      color: white;
+      &::after {
+        animation: none;
+      }
+      button {
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px 15px;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: var(--primary-grey-two);
+        transition: all 0.3s ease;
+        font-weight: 400;
+        font-family: var(--font-mono);
+      }
+      &:hover button,
+      &:focus button,
+      button:hover,
+      button:focus {
+        background-color: var(--secondary-grey-one);
+        border: 1px solid black;
+        color: black;
+      }
+    }
+  }
+  & > footer {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    min-height: 15vh;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 0;
+    text-align: center;
+    line-height: 1.7rem;
+    font-size: small;
+    letter-spacing: 2px;
+    font-family: var(--font-mono);
+    font-weight: 400;
+    .icons {
+      animation: none !important;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 1.5rem;
+      a::after {
+        animation: none;
+      }
+      .rule {
+        visibility: hidden;
+        display: none;
+      }
+    }
+    .github_stats {
+      &::after {
+        content: none;
+      }
+      // background-color: red;
+      display: flex;
+      font-size: 1rem;
+      align-items: center;
+      justify-content: space-between;
+      width: 150px;
+      font-weight: normal;
+      & > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & > * {
+          margin: 0px 5px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #contact {
+    & > .contentful {
+      h2 {
+        font-size: medium;
+      }
+      & > span {
+        font-size: xx-large;
+      }
+      & > p {
+        margin-top: 20px;
+        margin-bottom: 50px;
+      }
+      & > a {
+        height: auto;
+        width: fit-content;
+        color: white;
+      }
+    }
+    & > footer {
+      font-size: small;
+      text-align: center;
+      padding: 10px 30px;
+    }
+  }
+}
