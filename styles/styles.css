@@ -1868,215 +1868,6 @@ header > a {
   }
 }
 
-#extra-curricular {
-  padding: 0 !important;
-}
-
-#extra-curricular .contentful-different {
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-  z-index: -1;
-}
-
-#extra-curricular .contentful-different a::after {
-  content: none;
-}
-
-#extra-curricular .contentful-different h2,
-#extra-curricular .contentful-different span {
-  z-index: 999;
-  color: white;
-  position: absolute;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#extra-curricular .contentful-different h2 {
-  color: var(--secondary-grey-one);
-}
-
-#extra-curricular .contentful-different h2::after {
-  content: none;
-}
-
-#extra-curricular .contentful-different .pictures {
-  height: 100vh;
-  width: 100%;
-  position: absolute;
-  z-index: -9999;
-}
-
-#extra-curricular .contentful-different .pictures .photo-carousel {
-  height: 100%;
-  width: 100%;
-}
-
-#extra-curricular .contentful-different .pictures .photo-carousel ul {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#extra-curricular .contentful-different .pictures .photo-carousel ul li {
-  height: 100vh;
-  background: #606060;
-  /* Old browsers */
-  /* FF3.6-15 */
-  /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, #606060 0%, #333333 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606060', endColorstr='#333333',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */
-}
-
-#extra-curricular .contentful-different .pictures .photo-carousel ul li::before {
-  content: none;
-}
-
-#extra-curricular .contentful-different .pictures .photo-carousel ul .gallery-img-container {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
-#extra-curricular .contentful-different .pictures .react-multi-carousel-item--active,
-#extra-curricular .contentful-different .pictures .react-multi-carousel-item--active * {
-  -webkit-transition: height 0.425s ease-in-out, padding 0.425s ease-in-out, -webkit-transform 0.425s ease-in-out;
-  transition: height 0.425s ease-in-out, padding 0.425s ease-in-out, -webkit-transform 0.425s ease-in-out;
-  transition: height 0.425s ease-in-out, transform 0.425s ease-in-out, padding 0.425s ease-in-out;
-  transition: height 0.425s ease-in-out, transform 0.425s ease-in-out, padding 0.425s ease-in-out, -webkit-transform 0.425s ease-in-out;
-}
-
-#extra-curricular .contentful-different .btns {
-  position: absolute;
-  z-index: 999;
-  bottom: 9%;
-  left: calc(50% - 200px / 2);
-  width: 200px;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#extra-curricular .contentful-different .btns button {
-  margin: 10px 20px;
-  cursor: pointer;
-  background: var(--secondary-grey-one);
-  padding: 10px;
-  border: 0px solid black;
-  border-radius: 50%;
-  -webkit-box-shadow: 0 0 15px -3px white;
-          box-shadow: 0 0 15px -3px white;
-  font-size: 1.2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: black;
-}
-
-@media screen and (min-width: 900px) {
-  #extra-curricular .contentful-different::before {
-    content: "";
-    height: 25%;
-    width: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(var(--primary-grey-one)), to(var(--primary-grey-two)));
-    background: linear-gradient(var(--primary-grey-one), var(--primary-grey-two));
-    position: absolute;
-    top: 0;
-    left: 0%;
-    z-index: 0;
-    border-radius: 25% 25% 50% 50% / 0% 0% 100% 100%;
-  }
-  #extra-curricular .contentful-different::after {
-    content: "";
-    height: 25%;
-    width: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(var(--primary-grey-two)), to(var(--primary-grey-one)));
-    background: linear-gradient(var(--primary-grey-two), var(--primary-grey-one));
-    position: absolute;
-    bottom: 0;
-    left: 0%;
-    z-index: 0;
-    border-radius: 50% 50% 25% 25% / 100% 100% 0% 0%;
-  }
-  #extra-curricular .contentful-different h2,
-  #extra-curricular .contentful-different span {
-    width: 20vw;
-    left: calc(50% - 20vw / 2);
-  }
-  #extra-curricular .contentful-different h2 {
-    top: 12.5%;
-    font-size: 1.25rem;
-    font-weight: normal;
-  }
-  #extra-curricular .contentful-different span {
-    top: 17.5%;
-    font-size: 2rem;
-    letter-spacing: 5px;
-    font-weight: 600;
-  }
-  #extra-curricular .contentful-different .pictures .photo-carousel ul .middle-pic {
-    height: 55vh;
-    padding: 10px;
-  }
-  #extra-curricular .contentful-different .pictures .photo-carousel ul .gallery-img-container .gallery-img {
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  #extra-curricular .contentful-different .pictures .photo-carousel ul .middle-pic {
-    padding: 10px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  #extra-curricular .contentful-different h2,
-  #extra-curricular .contentful-different span {
-    width: 20vw;
-    left: calc(50% - 20vw / 2);
-  }
-  #extra-curricular .contentful-different h2 {
-    top: 13%;
-    font-size: 1rem;
-    font-weight: normal;
-  }
-  #extra-curricular .contentful-different span {
-    top: 17.5%;
-    font-size: 1.3rem;
-    letter-spacing: 5px;
-    font-weight: 600;
-  }
-  #extra-curricular .contentful-different .pictures .photo-carousel ul li {
-    height: 50vh;
-  }
-  #extra-curricular .contentful-different .pictures .photo-carousel ul .middle-pic {
-    height: 50vh;
-  }
-  #extra-curricular .contentful-different .pictures .photo-carousel ul .gallery-img-container .gallery-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
-}
-
 @media screen and (min-width: 950px) {
   #work .contentful {
     position: relative;
@@ -3053,6 +2844,215 @@ header > a {
     background-color: black;
     color: white;
     border-radius: 15px;
+  }
+}
+
+#extra-curricular {
+  padding: 0 !important;
+}
+
+#extra-curricular .contentful-different {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: -1;
+}
+
+#extra-curricular .contentful-different a::after {
+  content: none;
+}
+
+#extra-curricular .contentful-different h2,
+#extra-curricular .contentful-different span {
+  z-index: 999;
+  color: white;
+  position: absolute;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#extra-curricular .contentful-different h2 {
+  color: var(--secondary-grey-one);
+}
+
+#extra-curricular .contentful-different h2::after {
+  content: none;
+}
+
+#extra-curricular .contentful-different .pictures {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: -9999;
+}
+
+#extra-curricular .contentful-different .pictures .photo-carousel {
+  height: 100%;
+  width: 100%;
+}
+
+#extra-curricular .contentful-different .pictures .photo-carousel ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#extra-curricular .contentful-different .pictures .photo-carousel ul li {
+  height: 100vh;
+  background: #606060;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #606060 0%, #333333 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606060', endColorstr='#333333',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+#extra-curricular .contentful-different .pictures .photo-carousel ul li::before {
+  content: none;
+}
+
+#extra-curricular .contentful-different .pictures .photo-carousel ul .gallery-img-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#extra-curricular .contentful-different .pictures .react-multi-carousel-item--active,
+#extra-curricular .contentful-different .pictures .react-multi-carousel-item--active * {
+  -webkit-transition: height 0.425s ease-in-out, padding 0.425s ease-in-out, -webkit-transform 0.425s ease-in-out;
+  transition: height 0.425s ease-in-out, padding 0.425s ease-in-out, -webkit-transform 0.425s ease-in-out;
+  transition: height 0.425s ease-in-out, transform 0.425s ease-in-out, padding 0.425s ease-in-out;
+  transition: height 0.425s ease-in-out, transform 0.425s ease-in-out, padding 0.425s ease-in-out, -webkit-transform 0.425s ease-in-out;
+}
+
+#extra-curricular .contentful-different .btns {
+  position: absolute;
+  z-index: 999;
+  bottom: 9%;
+  left: calc(50% - 200px / 2);
+  width: 200px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#extra-curricular .contentful-different .btns button {
+  margin: 10px 20px;
+  cursor: pointer;
+  background: var(--secondary-grey-one);
+  padding: 10px;
+  border: 0px solid black;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 15px -3px white;
+          box-shadow: 0 0 15px -3px white;
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+}
+
+@media screen and (min-width: 900px) {
+  #extra-curricular .contentful-different::before {
+    content: "";
+    height: 25%;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--primary-grey-one)), to(var(--primary-grey-two)));
+    background: linear-gradient(var(--primary-grey-one), var(--primary-grey-two));
+    position: absolute;
+    top: 0;
+    left: 0%;
+    z-index: 0;
+    border-radius: 25% 25% 50% 50% / 0% 0% 100% 100%;
+  }
+  #extra-curricular .contentful-different::after {
+    content: "";
+    height: 25%;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--primary-grey-two)), to(var(--primary-grey-one)));
+    background: linear-gradient(var(--primary-grey-two), var(--primary-grey-one));
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    z-index: 0;
+    border-radius: 50% 50% 25% 25% / 100% 100% 0% 0%;
+  }
+  #extra-curricular .contentful-different h2,
+  #extra-curricular .contentful-different span {
+    width: 20vw;
+    left: calc(50% - 20vw / 2);
+  }
+  #extra-curricular .contentful-different h2 {
+    top: 12.5%;
+    font-size: 1.25rem;
+    font-weight: normal;
+  }
+  #extra-curricular .contentful-different span {
+    top: 17.5%;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    font-weight: 600;
+  }
+  #extra-curricular .contentful-different .pictures .photo-carousel ul .middle-pic {
+    height: 55vh;
+    padding: 10px;
+  }
+  #extra-curricular .contentful-different .pictures .photo-carousel ul .gallery-img-container .gallery-img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #extra-curricular .contentful-different .pictures .photo-carousel ul .middle-pic {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #extra-curricular .contentful-different h2,
+  #extra-curricular .contentful-different span {
+    width: 20vw;
+    left: calc(50% - 20vw / 2);
+  }
+  #extra-curricular .contentful-different h2 {
+    top: 13%;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  #extra-curricular .contentful-different span {
+    top: 17.5%;
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+    font-weight: 600;
+  }
+  #extra-curricular .contentful-different .pictures .photo-carousel ul li {
+    height: 50vh;
+  }
+  #extra-curricular .contentful-different .pictures .photo-carousel ul .middle-pic {
+    height: 50vh;
+  }
+  #extra-curricular .contentful-different .pictures .photo-carousel ul .gallery-img-container .gallery-img {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 /*# sourceMappingURL=styles.css.map */

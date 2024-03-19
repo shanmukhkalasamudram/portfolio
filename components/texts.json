@@ -152,7 +152,7 @@
         "website": "https://link.springer.com/chapter/10.1007/978-981-16-6186-0_6",
         "github": "https://github.com/shanmukhkalasamudram/anamoly-detection-using-PCA-and-autoencoder"
       },
-      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+      "picture": "https://firebasestorage.googleapis.com/v0/b/portfolio-6d822.appspot.com/o/Projects%2Fiot.png?alt=media"
     },
     {
       "title": "Framework for Disease Detection",
@@ -161,7 +161,7 @@
       "links": {
         "github": "https://github.com/shanmukhkalasamudram/Framework-for-Disease-Detection-and-Assistance"
       },
-      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+      "picture": "https://firebasestorage.googleapis.com/v0/b/portfolio-6d822.appspot.com/o/Projects%2Fdisease.png?alt=media"
     },
     {
       "title": "Phishing Website Detection using Emerging Machine Learning Models",
@@ -171,7 +171,7 @@
         "website": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3853016",
         "github": "https://github.com/shanmukhkalasamudram/Malware-Detection-with-Flask"
       },
-      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+      "picture": "https://firebasestorage.googleapis.com/v0/b/portfolio-6d822.appspot.com/o/Projects%2Fnasscom.png?alt=media"
     },
     {
       "title": "Idea Invest Implement",
@@ -189,7 +189,7 @@
       "links": {
         "github": "https://github.com/BhargavaramMuppuru/THE-DIGITAL-ELECTION-SYSTEM"
       },
-      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+      "picture": "https://firebasestorage.googleapis.com/v0/b/portfolio-6d822.appspot.com/o/Projects%2FScreenshot%202024-03-20%20at%2012.09.51%E2%80%AFAM.png?alt=media"
     },
     {
       "title": "Analysis of Lip Biometry on Handheld OS",
@@ -198,9 +198,10 @@
       "links": {
         "website": "https://www.irjet.net/archives/V8/i7/IRJET-V8I7776.pdf"
       },
-      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+      "picture": "https://firebasestorage.googleapis.com/v0/b/portfolio-6d822.appspot.com/o/Projects%2Fos.png?alt=media"
     }
   ],
+  "article_heading": "Discover More",
   "articles": [
     {
       "test": [ 
@@ -234,7 +235,6 @@
       },
       "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
     }
-
       ]
     },
     {
@@ -263,7 +263,7 @@
     }
   ],
   "extra_heading": "Panorama",
-  "extra_link": "https://photos.app.goo.gl/U8yYDxEZQ5dEuqF19",
+  "extra_link": "https://www.linkedin.com/in/shanmukhasai-k-v-4bb1a2167/",
   "cont_heading_one": "What's Next?",
   "cont_heading_two": "Get In Touch.",
   "cont_desc": "My inbox is always open for interesting discussions and connections. Feel free to reach out with anything intriguing or just to say hello. Looking forward to engaging conversations!",

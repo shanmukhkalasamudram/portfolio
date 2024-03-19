@@ -24,7 +24,13 @@ export default function Photography({ res }) {
   useEffect(() => {
     if (window.innerWidth > 900) {
       var workTarget = document.querySelector("#extra-curricular");
-      document.addEventListener("scroll", function tempVarExtra(e) {});
+      document.addEventListener("scroll", function tempVarExtra(e) {
+        // console.log(workTarget.style.top);
+        if (parseInt(workTarget.style.top.replace("px", "")) < 800) {
+          document.removeEventListener("scroll", tempVarExtra);
+          // e.target.removeEventListener();
+        }
+      });
     }
   }, []);
   var refff = useRef();
@@ -49,9 +55,11 @@ export default function Photography({ res }) {
     }
   }, [currentSlide]);
   useAddAni("extra-curricular");
+  // console.log(images);
   useEffect(() => {
     var extraSectionElem = document.querySelector("#extra-curricular");
     const extraSectionObserver = new MutationObserver(() => {
+      // console.log("...");
       var activeElems = document.querySelectorAll(
         '#extra-curricular li[aria-hidden*="false"]'
       );
@@ -73,6 +81,10 @@ export default function Photography({ res }) {
           extraSectionObserver.disconnect();
         }
     });
+    extraSectionObserver.observe(extraSectionElem, {
+      childList: true,
+      subtree: true,
+    });
   }, []);
   if (res.length == 0) {
     return <></>;
@@ -80,7 +92,6 @@ export default function Photography({ res }) {
   return (
     <section id="extra-curricular">
       <div className="contentful-different">
-        <h2>FrameSphere</h2>
         <span>{text.extra_heading}</span>
         <div className="pictures">
           <Carousel
@@ -138,13 +149,17 @@ export default function Photography({ res }) {
                   aria-label={`${text.my_name} | ${text.extra_heading} | Extracurricular | Extra-curricular`}
                 >
                   <Image
-                    src={img.url.replace("", "")}
+                    src={img.url.replace(
+                      "https://res.cloudinary.com/thegobindsingh/image/upload",
+                      "https://res.cloudinary.com/thegobindsingh/image/upload/q_25"
+                    )}
                     alt={`${text.my_name} | ${text.extra_heading} | Extracurricular | Extra-curricular`}
                     fill
                     className="gallery-img"
                     quality={100}
                     onLoad={({ target }) => {
                       const { naturalWidth, naturalHeight } = target;
+                      // console.log(naturalHeight, naturalWidth);
                       target.classList.add(
                         `HxW=${naturalHeight}x${naturalWidth}`
                       );

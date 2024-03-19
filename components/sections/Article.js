@@ -28,7 +28,7 @@ export default function Article() {
   return (
     <section id="article">
       <div className="contentful">
-        <h2>{text.work_heading}</h2>
+        <h2>{text.article_heading}</h2>
         {dweb ? (
           <>
             <Carousel

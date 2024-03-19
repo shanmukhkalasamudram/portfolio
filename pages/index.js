@@ -129,7 +129,6 @@ export default function Main({ footerData, photographyData }) {
       }
     }
   }, [router]);
-  console.log("hi");
   return (
     <div id="main">
       <Head>
@@ -163,8 +162,8 @@ export default function Main({ footerData, photographyData }) {
         <Experience />
         <Work />
         <Education />
-        <Extra res={text.extra_heading.length != 0 ? photographyData : []} />
         <Article />
+        <Extra res={text.extra_heading.length != 0 ? photographyData : []} />
         <Contact footerData={footerData} />
       </>
       <>
@@ -176,9 +175,9 @@ export default function Main({ footerData, photographyData }) {
 }
 
 export async function getServerSideProps(context) {
-  // var res = await axios.get(
-  //   "https://api.github.com/repos/shanmukhkalasamudram/myportfolio"
-  // );
+  var res = await axios.get(
+    "https://api.github.com/repos/shanmukhkalasamudram/myportfolio"
+  );
   var res = {};
   res.data = {};
   cloudinary.config({
@@ -187,26 +186,25 @@ export async function getServerSideProps(context) {
     api_secret: process.env.CLOUDINARY_API_SECRET,
     secure: true,
   });
-  // const photographyData = await cloudinary.v2.api.resources(
-  //   {
-  //     type: "upload",
-  //     prefix: "snapfolio",
-  //     max_results: 999,
-  //     sort_by: "created_at",
-  //     direction: "desc",
-  //   },
-  //   () => {}
-  // );
-  // photographyData.resources.sort((a, b) => {
-  //   const dateA = new Date(a.created_at);
-  //   const dateB = new Date(b.created_at);
-  //   return dateB - dateA;
-  // });
-  // photographyData?.resources ||
+  const photographyData = await cloudinary.v2.api.resources(
+    {
+      type: "upload",
+      prefix: "snapfolio",
+      max_results: 999,
+      sort_by: "created_at",
+      direction: "desc",
+    },
+    () => {}
+  );
+  photographyData.resources.sort((a, b) => {
+    const dateA = new Date(a.created_at);
+    const dateB = new Date(b.created_at);
+    return dateB - dateA;
+  });
   return {
     props: {
       footerData: res.data,
-      photographyData: [],
+      photographyData: photographyData?.resources || [],
     },
   };
 }
