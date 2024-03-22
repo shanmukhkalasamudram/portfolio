@@ -3028,6 +3028,9 @@ header > a {
 }
 
 @media screen and (max-width: 900px) {
+  #extra-curricular {
+    z-index: 100;
+  }
   #extra-curricular .contentful-different h2,
   #extra-curricular .contentful-different span {
     width: 20vw;

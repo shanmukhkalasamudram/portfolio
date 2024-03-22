@@ -18,7 +18,7 @@ import MainLeft from "../components/_parts/MainLeft.js";
 import MainRight from "../components/_parts/MainRight.js";
 
 import { FiX } from "react-icons/fi";
-import text from "../components/texts.json";
+import { InitialData } from "./context.js";
 
 export default function Main({ footerData, photographyData }) {
   const router = useRouter();
@@ -129,48 +129,75 @@ export default function Main({ footerData, photographyData }) {
       }
     }
   }, [router]);
+  const fetchApiEndPoint = async () => {
+    try {
+      const { data } = await axios.get(
+        "https://res.cloudinary.com/dydnnxrft/raw/upload/v1711091335/text.json"
+      );
+      return data;
+    } catch (err) {
+      return [];
+    }
+  };
+
+  const [initialData, setInitialData] = useState(null);
+
+  useEffect(() => {
+    fetchApiEndPoint().then((data) => {
+      setInitialData(data);
+    });
+  }, []);
+
+  if (initialData === null) {
+    return <>Loading...</>;
+  }
+
   return (
-    <div id="main">
-      <Head>
-        <title>Shanmukhasai K V</title>
-        <meta name="description" content={text.home_desc} />
-      </Head>
-      {popupVisible && (
-        <>
-          <div id="popup">
-            <div>
-              <FiX
-                onClick={() => {
-                  setPopupViz(false);
-                }}
-                className="popup-cross-icon"
-              />
-              <span>
-                View this website on a Deskop or a Laptop for a better viewing
-                experience.
-              </span>
+    <InitialData.Provider value={initialData}>
+      <div id="main">
+        <Head>
+          <title>Shanmukhasai K V</title>
+          <meta name="description" content={initialData?.home_desc} />
+        </Head>
+        {popupVisible && (
+          <>
+            <div id="popup">
+              <div>
+                <FiX
+                  onClick={() => {
+                    setPopupViz(false);
+                  }}
+                  className="popup-cross-icon"
+                />
+                <span>
+                  View this website on a Deskop or a Laptop for a better viewing
+                  experience.
+                </span>
+              </div>
             </div>
-          </div>
+          </>
+        )}
+        <>
+          <Header />
         </>
-      )}
-      <>
-        <Header />
-      </>
-      <>
-        <Home />
-        <About />
-        <Experience />
-        <Work />
-        <Education />
-        <Article />
-        <Extra res={text.extra_heading.length != 0 ? photographyData : []} />
-        <Contact footerData={footerData} />
-      </>
-      <>
-        <MainLeft divID={"main-left"} divClass={"only-pc"} />
-        <MainRight />
-      </>
-    </div>
+        <>
+          <Home />
+          <About />
+          <Experience />
+          <Work />
+          <Education />
+          <Article />
+          <Extra
+            res={initialData.extra_heading.length != 0 ? photographyData : []}
+          />
+          <Contact footerData={footerData} />
+        </>
+        <>
+          <MainLeft divID={"main-left"} divClass={"only-pc"} />
+          <MainRight />
+        </>
+      </div>
+    </InitialData.Provider>
   );
 }
 
