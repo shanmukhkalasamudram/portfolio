@@ -1,10 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useContext } from "react";
 import useAddAni from "../hooks/useAddAni";
 
-import text from
- "../texts.json";
+import text from "../texts.json";
+
+import { InitialData } from "../../pages/context";
 
 export default function Home() {
+  const data = useContext(InitialData);
   useAddAni("home");
   useEffect(() => {
     if (
@@ -39,7 +41,9 @@ export default function Home() {
         <h1>
           <span>{text.home_hello}</span>
           <span>{text.my_name + "."}</span>
-          {text.home_sub_heading != null && <span>{text.home_sub_heading}</span>}
+          {text.home_sub_heading != null && (
+            <span>{text.home_sub_heading}</span>
+          )}
         </h1>
       </main>
     </section>

@@ -175,6 +175,7 @@
 }
 @media screen and (max-width: 900px) {
   #extra-curricular {
+    z-index: 100;
     .contentful-different {
       h2,
       span {
