@@ -23,10 +23,12 @@ import { InitialData } from "./context.js";
 export default function Main({ footerData, photographyData }) {
   const router = useRouter();
   const [popupVisible, setPopupViz] = useState(false);
+  const [initialData, setInitialData] = useState(null);
   useEffect(() => {
     function mainFun() {
+      const oldStyleE = document.querySelector("style.page-height-style");
       var allSections = document.querySelectorAll("#main > section");
-      var styleForHeight = document.createElement("style");
+      var styleForHeight = oldStyleE ?? document.createElement("style");
       styleForHeight.classList.add("page-height-style");
       styleForHeight.innerHTML = `
         @media screen and (min-width: 900px) {
@@ -104,7 +106,7 @@ export default function Main({ footerData, photographyData }) {
       }
       // mainFun();
     });
-  }, []);
+  }, [initialData]);
   useEffect(() => {
     if (router.asPath.length > 1 && window.innerWidth > 900) {
       if (router.asPath[1] == "#") {
@@ -139,8 +141,6 @@ export default function Main({ footerData, photographyData }) {
       return [];
     }
   };
-
-  const [initialData, setInitialData] = useState(null);
 
   useEffect(() => {
     fetchApiEndPoint().then((data) => {
