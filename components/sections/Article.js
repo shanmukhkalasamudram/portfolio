@@ -1,13 +1,13 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState, useEffect, useContext } from "react";
 import useAddAni from "../hooks/useAddAni";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-
-import text from "../texts.json";
+import { InitialData } from "../../pages/context";
 
 export default function Article() {
+  const text = useContext(InitialData);
   var refState = useRef();
   const [currentWorkSlide, setWorkCurrentSlide] = useState(-1);
   useAddAni("article");

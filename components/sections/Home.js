@@ -1,12 +1,10 @@
 import React, { useEffect, useContext } from "react";
 import useAddAni from "../hooks/useAddAni";
 
-import text from "../texts.json";
-
 import { InitialData } from "../../pages/context";
 
 export default function Home() {
-  const data = useContext(InitialData);
+  const text = useContext(InitialData);
   useAddAni("home");
   useEffect(() => {
     if (

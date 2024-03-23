@@ -1,11 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useContext } from "react";
 import Image from "next/future/image";
 
-import text from "../texts.json";
+import { InitialData } from "../../pages/context";
 
 import useAddAni from "../hooks/useAddAni";
 
 export default function About() {
+  const text = useContext(InitialData);
   useAddAni("about");
   useEffect(() => {
     var newAbout = "";

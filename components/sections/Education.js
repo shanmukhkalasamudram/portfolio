@@ -1,17 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import Image from "next/future/image";
 
-import text from "../texts.json";
+import { InitialData } from "../../pages/context";
 
 import useAddAni from "../hooks/useAddAni";
 
 export default function Education() {
   const [currentExp, setCurrentExp] = useState(0);
+  const text = useContext(InitialData);
   useAddAni("education");
   return (
     <section id="education" aria-label="Education">
       <div className="contentful">
-        <h2>{text.experience_heading}</h2>
+        <h2>{text.education_heading}</h2>
         <div className="inside-exp">
           <div className="left-panel">
             {text.education.map((exp, index) => {
