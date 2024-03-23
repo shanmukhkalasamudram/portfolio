@@ -1,14 +1,14 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useContext } from "react";
 import Image from "next/future/image";
 import useAddAni from "../hooks/useAddAni";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { FiChevronLeft, FiChevronRight, FiPlay, FiPause } from "react-icons/fi";
-
-import text from "../texts.json";
+import { InitialData } from "../../pages/context";
 
 export default function Photography({ res }) {
+  const text = useContext(InitialData);
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 900 },

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useContext } from "react";
 import Image from "next/future/image";
 import useAddAni from "../hooks/useAddAni";
 
@@ -11,9 +11,10 @@ import {
   FiExternalLink,
 } from "react-icons/fi";
 
-import text from "../texts.json";
+import { InitialData } from "../../pages/context";
 
 export default function Work() {
+  const text = useContext(InitialData);
   var refState = useRef();
   const [currentWorkSlide, setWorkCurrentSlide] = useState(-1);
   useAddAni("work");

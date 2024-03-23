@@ -1,11 +1,12 @@
-import React, { useState } from "react";
-
-import text from "../texts.json";
+import React, { useState, useContext } from "react";
 
 import useAddAni from "../hooks/useAddAni";
 
+import { InitialData } from "../../pages/context";
+
 export default function Experience() {
   const [currentExp, setCurrentExp] = useState(0);
+  const text = useContext(InitialData);
   useAddAni("experience");
   return (
     <section id="experience" aria-label="Experience">

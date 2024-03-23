@@ -1,14 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useContext } from "react";
 import { FiStar } from "react-icons/fi";
 import { VscRepoForked } from "react-icons/vsc";
 import useAddAni from "../hooks/useAddAni";
 
-import text from "../texts.json";
+import { InitialData } from "../../pages/context";
 
 import MainLeft from "../_parts/MainLeft";
 
 export default function Contact({ footerData }) {
   useAddAni("contact");
+  const text = useContext(InitialData);
   const css_upwardAnimation_footer = `upwardAnimation 0.8s ease 0.3s 1 normal forwards`;
   useEffect(() => {
     var elem = document.querySelector(`#contact .contentful`);
