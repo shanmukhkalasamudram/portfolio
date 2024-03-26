@@ -134,7 +134,7 @@ export default function Main({ footerData, photographyData }) {
   const fetchApiEndPoint = async () => {
     try {
       const { data } = await axios.get(
-        "https://res.cloudinary.com/dydnnxrft/raw/upload/v1711091335/texts.json"
+        "https://res.cloudinary.com/dydnnxrft/raw/upload/v1711091335/text.json"
       );
       return data;
     } catch (err) {
@@ -213,25 +213,25 @@ export async function getServerSideProps(context) {
     api_secret: process.env.CLOUDINARY_API_SECRET,
     secure: true,
   });
-  // const photographyData = await cloudinary.v2.api.resources(
-  //   {
-  //     type: "upload",
-  //     prefix: "snapfolio",
-  //     max_results: 999,
-  //     sort_by: "created_at",
-  //     direction: "desc",
-  //   },
-  //   () => {}
-  // );
-  // photographyData.resources.sort((a, b) => {
-  //   const dateA = new Date(a.created_at);
-  //   const dateB = new Date(b.created_at);
-  //   return dateB - dateA;
-  // });
+  const photographyData = await cloudinary.v2.api.resources(
+    {
+      type: "upload",
+      prefix: "snapfolio",
+      max_results: 999,
+      sort_by: "created_at",
+      direction: "desc",
+    },
+    () => {}
+  );
+  photographyData.resources.sort((a, b) => {
+    const dateA = new Date(a.created_at);
+    const dateB = new Date(b.created_at);
+    return dateB - dateA;
+  });
   return {
     props: {
       footerData: res.data,
-      photographyData: [],
+      photographyData: photographyData?.resources || [],
     },
   };
 }
