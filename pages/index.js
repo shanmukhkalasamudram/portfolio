@@ -134,7 +134,7 @@ export default function Main({ footerData, photographyData }) {
   const fetchApiEndPoint = async () => {
     try {
       const { data } = await axios.get(
-        "https://res.cloudinary.com/dydnnxrft/raw/upload/v1711091335/text.json"
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-6d822.appspot.com/o/texts.json?alt=media"
       );
       return data;
     } catch (err) {

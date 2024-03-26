@@ -205,60 +205,42 @@
   "articles": [
     {
       "test": [ 
+         {
+      "title": "The way Docker Build Cache Things…",
+      "desc": "When I try to create docker image, I have noticed few things which I will discuss in this blog.I have created docker file and now I want to build image out of it.",
+      "tech_stack": [ "docker", "Images", "Build"],
+      "links": {
+        "github": "https://medium.com/@shanmukhkalasamudram/the-way-docker-build-cache-things-fd49e87f9db2"
+      }
+    },
      {
-      "title": "Anomaly Detection Using Unsupervised Machine Learning Algorithms",
-      "desc": "Predicting the anomaly in a machine, given the details about its engine and sensors using Principal Component Analysis(PCA) and Autoencoders. Chapter accepted for a Springer book: Deep Learning for Security and Privacy Preservation in IoT(DeepIot2021)",
-      "tech_stack": ["PCA", "Autoencoders", "Machine Learning", "Springer"],
+      "title": "Campus to Corporate Life",
+      "desc": "I have noticed that we often spend more time discussing and planning than actually coding or developing. The key to success in this context is to prioritize responding to change over following a rigid plan. This involves taking swift action to resolve issues and bugs as they arise. Before coding, it is important to first create a list of edge cases by white boarding and carefully considering your approach.",
+      "tech_stack": ["Software", "Agile", "Corporate"],
       "links": {
-        "website": "https://link.springer.com/chapter/10.1007/978-981-16-6186-0_6",
-        "github": "https://github.com/shanmukhkalasamudram/anamoly-detection-using-PCA-and-autoencoder"
-      },
-      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+        "github": "https://medium.com/@shanmukhkalasamudram/campus-to-corporate-life-d484c0b033ea"
+      }
     },
     {
-      "title": "Anomaly Detection Using Unsupervised Machine Learning Algorithms",
-      "desc": "Predicting the anomaly in a machine, given the details about its engine and sensors using Principal Component Analysis(PCA) and Autoencoders. Chapter accepted for a Springer book: Deep Learning for Security and Privacy Preservation in IoT(DeepIot2021)",
-      "tech_stack": ["PCA", "Autoencoders", "Machine Learning", "Springer"],
+      "title": "Architecting Software Systems — 1",
+      "desc": "For any software system, there are certain requirements which need to be fulfilled. The first one is functional requirements which sits with the core logic of business requirement. Along with this it is also important to focus on the non functional requirements.",
+      "tech_stack": ["Functional Requirements", "Latency", "Memory", "Performance"],
       "links": {
-        "website": "https://link.springer.com/chapter/10.1007/978-981-16-6186-0_6",
-        "github": "https://github.com/shanmukhkalasamudram/anamoly-detection-using-PCA-and-autoencoder"
-      },
-      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
-    },
-    {
-      "title": "Anomaly Detection Using Unsupervised Machine Learning Algorithms",
-      "desc": "Predicting the anomaly in a machine, given the details about its engine and sensors using Principal Component Analysis(PCA) and Autoencoders. Chapter accepted for a Springer book: Deep Learning for Security and Privacy Preservation in IoT(DeepIot2021)",
-      "tech_stack": ["PCA", "Autoencoders", "Machine Learning", "Springer"],
-      "links": {
-        "website": "https://link.springer.com/chapter/10.1007/978-981-16-6186-0_6",
-        "github": "https://github.com/shanmukhkalasamudram/anamoly-detection-using-PCA-and-autoencoder"
-      },
-      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+        "github": "https://medium.com/@shanmukhkalasamudram/architecting-software-systems-1-e307b0af99fb"
+      }
     }
       ]
     },
     {
       "test": [ 
-        {
-        "title": "Framework for Disease Detection",
-        "desc": "A platform where the framework will assist the needed people related to diseases, doctors, symptoms and help predict a disease with 95% accuracy.",
-        "tech_stack": ["HTML", "CSS", "JavaScript", "Python", "NLP", "ML", "Flask", "Selenium"],
-        "links": {
-          "github": "https://github.com/shanmukhkalasamudram/Framework-for-Disease-Detection-and-Assistance"
-        },
-        "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
-        },
-     {
-      "title": "Anomaly Detection Using Unsupervised Machine Learning Algorithms",
-      "desc": "Predicting the anomaly in a machine, given the details about its engine and sensors using Principal Component Analysis(PCA) and Autoencoders. Chapter accepted for a Springer book: Deep Learning for Security and Privacy Preservation in IoT(DeepIot2021)",
-      "tech_stack": ["PCA", "Autoencoders", "Machine Learning", "Springer"],
+           {
+      "title": "Deployment of Service in AKS",
+      "desc": "Agile mainly focuses on flexibility, customer collaboration, and an iterative, incremental approach to software development. This needs faster delivery, faster co-ordination between the teams. Dev-Ops helps to provide continuous integration, continuous delivery, and continuous deployment, which automate the software delivery process and enable teams to deliver software applications faster and with higher quality.",
+      "tech_stack": ["Azure", "AKS", "Docker", "Deployment"],
       "links": {
-        "website": "https://link.springer.com/chapter/10.1007/978-981-16-6186-0_6",
-        "github": "https://github.com/shanmukhkalasamudram/anamoly-detection-using-PCA-and-autoencoder"
-      },
-      "picture": "https://res.cloudinary.com/dydnnxrft/image/upload/v1709821034/iwp-project.png"
+        "github": "https://medium.com/@shanmukhkalasamudram/deployment-of-service-in-aks-ae5f4fa3bc4e"
+      }
     }
-
       ]
     }
   ],
