@@ -16,7 +16,7 @@
       "link": "https://www.linkedin.com/in/shanmukhasai-k-v-4bb1a2167/"
     }
   ],
-  "about_me": "Hey there! I'm Shanmukhasai K V, a laid-back yet results-driven Software Engineer. Currently rocking it as a SDE II at Bajaj Finserv Health. I specialize in crafting scalable microservices and turbocharging REST APIs for high performance. Beyond coding, you'll often find me mentoring and guiding team members towards awesome, collaborative outcomes.\n\n Oh, and did I mention? I'm not just a backend maestro; I've got the React magic up my sleeves, too, building sleek front-end experiences.\n\n When I'm not deep in code, I'm diving into the realms of Stock Exchanges, keeping an eye on current politics, and pondering over social issues. Let's build something cool together!",
+  "about_me": "Hey there! I'm Shanmukhasai K V, a laid-back yet results-driven Software Engineer. Currently pursuing a Master’s in Computer Science at SUNY Buffalo. I specialize in crafting scalable microservices and turbocharging REST APIs for high performance. Beyond coding, you'll often find me mentoring and guiding team members towards awesome, collaborative outcomes.\n\n Oh, and did I mention? I'm not just a backend maestro; I've got the React magic up my sleeves, too, building sleek front-end experiences.\n\n When I'm not deep in code, I'm diving into the realms of Stock Exchanges, keeping an eye on current politics, and pondering over social issues. Let's build something cool together!",
   "about_me_exp": ["Node.js","Next.js", "React", "Database- Mysql, Mongo", "AKS & Docker","Event Driven Archs"],
   "exp": [
     {
@@ -46,7 +46,7 @@
         {
           "role": "Software Development Engineer",
           "company": "Bajaj Finserv Health",
-          "duration": "August 2023 - Present",
+          "duration": "August 2023 - July 2024",
           "website": "https://www.bajajfinservhealth.in/",
             "list": [
               "Contributed significantly to backend development and solutioning, while personalizing Hrx Engagement solutions to drive the Bajaj Health App/Web Homepage, serving over 2 million Indians",
@@ -111,6 +111,15 @@
   ],
   "education_heading": "Learning Pathways",
   "education": [
+    {
+      "company": "State University of New York at Buffalo",
+      "duration": "August 2024 - Present",
+      "major": "Masters in Computer Science and Engineering",
+      "address": "North Campus, Amherst, Buffalo- 14226",
+      "country": "New York,USA",
+      "website": "https://www.buffalo.edu/",
+       "picture": "https://firebasestorage.googleapis.com/v0/b/portfolio-6d822.appspot.com/o/Education%2Fub1.jpg?alt=media"
+    },
     {
       "company": "Vellore Institute of Technology",
       "duration": "July 2018 - May 2022",
