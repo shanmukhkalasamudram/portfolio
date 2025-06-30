@@ -134,7 +134,7 @@ export default function Main({ footerData, photographyData }) {
   const fetchApiEndPoint = async () => {
     try {
       const { data } = await axios.get(
-        "https://res.cloudinary.com/dydnnxrft/raw/upload/v1730047072/oct_23_template.json"
+        "https://res.cloudinary.com/dydnnxrft/raw/upload/v1722921220/june_30_2025_yszmcc.json"
       );
       return data;
     } catch (err) {
