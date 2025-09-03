@@ -9,4 +9,4 @@ Just update any content in cloudinary link/any json file/link in Pages/Index.js
 Any changed detected in the git, will automatically trigger pipeline in Vercel
 
 
-Updated new link on June 30 2025
+Updated new link on Sep 3 2025
