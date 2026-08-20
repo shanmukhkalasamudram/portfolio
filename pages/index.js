@@ -156,7 +156,7 @@ export default function Main({ footerData, photographyData }) {
     <InitialData.Provider value={initialData}>
       <div id="main">
         <Head>
-          <title>Shanmukhasai K V</title>
+          <title>{initialData?.my_name || "K V Shanmukha Sai"}</title>
           <meta name="description" content={initialData?.home_desc} />
         </Head>
         {popupVisible && (

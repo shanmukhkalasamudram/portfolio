@@ -226,6 +226,19 @@ header {
     letter-spacing: 4px;
     z-index: -1;
     text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    // the header is a fixed 80px flex row, so the name must never wrap onto a
+    // second line — with the fallback cursive face it is ~30% wider than
+    // Comforter and would otherwise overflow the bar while the webfont loads.
+    white-space: nowrap;
+    flex-shrink: 0;
+
+    // since it can no longer wrap, it has to be small enough to sit beside the
+    // burger on a phone: the fallback face needs ~345px at 2rem, more than a
+    // 390px viewport leaves free.
+    @media screen and (max-width: 600px) {
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+    }
   }
 }
 
