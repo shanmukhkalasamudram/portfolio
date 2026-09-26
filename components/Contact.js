@@ -24,7 +24,7 @@ export default function Contact({ eyebrow, data, email, socials, credit }) {
             ))}
           </ul>
         )}
-        <p className={styles.credit}>{credit}</p>
+        {credit && <p className={styles.credit}>{credit}</p>}
       </div>
     </footer>
   );

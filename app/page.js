@@ -56,10 +56,10 @@ export default async function Home() {
         <Hero hero={content.hero} profile={content.profile} actions={actions} />
         <About eyebrow={eyebrow.about} data={content.about} />
         {hasContent.experience && <Experience eyebrow={eyebrow.experience} data={content.experience} />}
-        {hasContent.projects && <Projects eyebrow={eyebrow.projects} data={content.projects} labels={labels} />}
         {hasContent.videos && (
           <Videos eyebrow={eyebrow.videos} data={content.videos} videos={videos} labels={labels} />
         )}
+        {hasContent.projects && <Projects eyebrow={eyebrow.projects} data={content.projects} labels={labels} />}
         {hasContent.photos && (
           <Photos eyebrow={eyebrow.photos} data={content.photos} photos={photos} labels={labels} />
         )}

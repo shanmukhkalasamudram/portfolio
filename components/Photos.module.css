@@ -8,13 +8,13 @@
   margin-right: 8px;
 }
 
-/* One row at a fixed height; each photo keeps its own shape, so nothing is cropped. */
+/* One row at a fixed height; each photo keeps its own shape, so nothing is
+   cropped. It scrolls on its own (see Photos.js), so no scroll snapping. */
 .strip {
   display: flex;
   gap: 16px;
   overflow-x: auto;
   overscroll-behavior-x: contain;
-  scroll-snap-type: x mandatory;
   scrollbar-width: none;
 }
 
@@ -24,7 +24,6 @@
 
 .strip li {
   flex: 0 0 auto;
-  scroll-snap-align: start;
 }
 
 .photoButton {
@@ -84,26 +83,19 @@
 }
 
 @media (max-width: 900px) {
+  /* The row runs edge to edge on phones. */
   .strip {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
-    overflow: visible;
-  }
-
-  .beyondMobile {
-    display: none;
+    margin-inline: calc(-1 * var(--gutter));
+    padding-inline: var(--gutter);
   }
 
   .photoButton {
-    width: 100%;
-    border-radius: 18px;
+    border-radius: 16px;
   }
 
   .photo {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: 260px;
   }
 
   .mobileLink {
