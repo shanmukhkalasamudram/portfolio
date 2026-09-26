@@ -230,19 +230,9 @@
       "description": "Everything I've made for The Hot Path, newest first. Click any video to play it here.",
       "videosHeading": "Videos"
     },
-    "items": [
-      { "url": "https://youtu.be/_hFfJmNAJsw" },
-      { "url": "https://youtu.be/hyjoFJNn0PM" },
-      { "url": "https://youtu.be/-YbpHdLzCko" },
-      { "url": "https://youtu.be/f7Da8XDcsSs" },
-      { "url": "https://youtu.be/QSO8idYkXLY" },
-      { "url": "https://youtu.be/oIijeWwZtZw" },
-      { "url": "https://youtu.be/O247S-E3BZ0" },
-      { "url": "https://youtu.be/lD8nXJ0UWzE" },
-      { "url": "https://youtu.be/amuz61xasLY" },
-      { "url": "https://youtu.be/nbtMy39IRA0" },
-      { "url": "https://youtu.be/kfkhK5iNquU" },
-      { "url": "https://youtu.be/Wua4LuAnw5E" }
+    "sources": [
+      { "playlist": "PLF1y0D9n1pFQ", "type": "video" },
+      { "playlist": "PLAZy95rjIeTs", "type": "short", "since": "2026-09-08" }
     ]
   },
 

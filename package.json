@@ -10,7 +10,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "add-photos": "node --env-file=.env.local scripts/add-photos.mjs"
+    "add-photos": "node --env-file=.env.local scripts/add-photos.mjs",
+    "sync-videos": "node scripts/sync-videos.mjs"
   },
   "dependencies": {
     "cloudinary": "^2.11.0",

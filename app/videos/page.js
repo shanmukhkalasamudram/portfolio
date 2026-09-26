@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 
 import content from "@/content/portfolio.json";
+import videoList from "@/content/videos.json";
 import { SECTION_IDS, contactProps, headerProps } from "@/lib/site";
 import { loadVideos } from "@/lib/youtube";
 
@@ -28,7 +29,7 @@ export const revalidate = 3600;
 
 export default async function VideosPage() {
   const { labels } = content;
-  const videos = await loadVideos(content.videos.items, labels.untitledVideo);
+  const videos = await loadVideos(videoList.items, labels.untitledVideo);
   if (videos.long.length + videos.shorts.length === 0) notFound();
 
   return (

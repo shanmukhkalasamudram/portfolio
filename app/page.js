@@ -1,4 +1,5 @@
 import content from "@/content/portfolio.json";
+import videoList from "@/content/videos.json";
 import { loadPhotos } from "@/lib/photos";
 import { SECTION_IDS, contactProps, headerProps } from "@/lib/site";
 import { loadVideos } from "@/lib/youtube";
@@ -21,7 +22,7 @@ export default async function Home() {
   const { labels } = content;
   const [photos, videos] = await Promise.all([
     loadPhotos(content.photos),
-    loadVideos(content.videos.items, labels.untitledVideo),
+    loadVideos(videoList.items, labels.untitledVideo),
   ]);
 
   const hasContent = {

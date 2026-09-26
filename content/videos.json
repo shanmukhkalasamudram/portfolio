@@ -1,0 +1,130 @@
+{
+  "items": [
+    {
+      "url": "https://youtube.com/shorts/A9x1qYi8Ogs",
+      "title": "Stop eyeballing prompts — test them side by side with promptfoo",
+      "type": "short",
+      "published": "2026-09-24T13:30:27+00:00"
+    },
+    {
+      "url": "https://youtu.be/_hFfJmNAJsw",
+      "title": "Run AI Offline — On Your Own Laptop | Agentic AI 101 #12",
+      "type": "video",
+      "published": "2026-09-24T11:30:12+00:00"
+    },
+    {
+      "url": "https://youtube.com/shorts/Cz6xDUDDmss",
+      "title": "Transcribe audio locally for free with faster-whisper — no API, no upload",
+      "type": "short",
+      "published": "2026-09-22T13:30:33+00:00"
+    },
+    {
+      "url": "https://youtube.com/shorts/w-MTKPo_Qhw",
+      "title": "Fine-tune an LLM on a FREE Colab GPU with Unsloth",
+      "type": "short",
+      "published": "2026-09-20T13:30:00+00:00"
+    },
+    {
+      "url": "https://youtube.com/shorts/eLeXwJQC4fQ",
+      "title": "Stop hand-tuning prompts — let DSPy optimize them for you",
+      "type": "short",
+      "published": "2026-09-18T13:30:33+00:00"
+    },
+    {
+      "url": "https://youtube.com/shorts/HmlP-evdLnA",
+      "title": "SkyPilot: run your job on the cheapest GPU across all your clouds",
+      "type": "short",
+      "published": "2026-09-16T13:30:24+00:00"
+    },
+    {
+      "url": "https://youtube.com/shorts/U2i6Ftb8Wxs",
+      "title": "Fix wrong RAG answers with rerankers (one API)",
+      "type": "short",
+      "published": "2026-09-14T13:30:35+00:00"
+    },
+    {
+      "url": "https://youtube.com/shorts/dvbm1_NIWRM",
+      "title": "LanceDB: vector search on your laptop, no server",
+      "type": "short",
+      "published": "2026-09-12T13:30:12+00:00"
+    },
+    {
+      "url": "https://youtube.com/shorts/VFVC1CyZO-w",
+      "title": "fastembed: make embeddings without installing 2GB of torch",
+      "type": "short",
+      "published": "2026-09-10T13:30:20+00:00"
+    },
+    {
+      "url": "https://youtube.com/shorts/kqkdIiKAohk",
+      "title": "Docling: fix RAG that breaks on real PDFs (tables + columns)",
+      "type": "short",
+      "published": "2026-09-08T13:30:33+00:00"
+    },
+    {
+      "url": "https://youtu.be/hyjoFJNn0PM",
+      "title": "MCP, Explained — I Let AI Apply to Jobs For Me",
+      "type": "video",
+      "published": "2026-09-08T13:30:00+00:00"
+    },
+    {
+      "url": "https://youtu.be/-YbpHdLzCko",
+      "title": "I Built a Complete AI Agent From Scratch — Running Live",
+      "type": "video",
+      "published": "2026-08-30T05:00:06+00:00"
+    },
+    {
+      "url": "https://youtu.be/f7Da8XDcsSs",
+      "title": "Your AI Agent Can Be Hijacked — and It Lies About 'Done'",
+      "type": "video",
+      "published": "2026-08-26T15:30:12+00:00"
+    },
+    {
+      "url": "https://youtu.be/QSO8idYkXLY",
+      "title": "4 Ways Your AI Agent Breaks — and How to Lock It Down",
+      "type": "video",
+      "published": "2026-08-23T05:00:27+00:00"
+    },
+    {
+      "url": "https://youtu.be/oIijeWwZtZw",
+      "title": "Your AI Agent Is Slow, Expensive, and Untested — Fix All Three",
+      "type": "video",
+      "published": "2026-08-19T15:30:35+00:00"
+    },
+    {
+      "url": "https://youtu.be/O247S-E3BZ0",
+      "title": "Agent Frameworks: What They Do — and When to Skip Them",
+      "type": "video",
+      "published": "2026-08-16T06:03:32+00:00"
+    },
+    {
+      "url": "https://youtu.be/lD8nXJ0UWzE",
+      "title": "Real Tools, Real Consequences",
+      "type": "video",
+      "published": "2026-08-16T06:01:01+00:00"
+    },
+    {
+      "url": "https://youtu.be/amuz61xasLY",
+      "title": "Tool Descriptions: The Prompt You Didn't Know You Were Writing",
+      "type": "video",
+      "published": "2026-08-16T05:59:03+00:00"
+    },
+    {
+      "url": "https://youtu.be/nbtMy39IRA0",
+      "title": "The Loop: What Actually Makes a Model \"Agentic\"",
+      "type": "video",
+      "published": "2026-08-16T05:56:17+00:00"
+    },
+    {
+      "url": "https://youtu.be/kfkhK5iNquU",
+      "title": "Tools: How an Agent Reaches Into the Real World",
+      "type": "video",
+      "published": "2026-08-16T05:54:28+00:00"
+    },
+    {
+      "url": "https://youtu.be/Wua4LuAnw5E",
+      "title": "What an LLM Really Is — and Why It Can't Act Alone",
+      "type": "video",
+      "published": "2026-08-16T05:38:16+00:00"
+    }
+  ]
+}
