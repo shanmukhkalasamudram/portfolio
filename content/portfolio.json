@@ -89,24 +89,32 @@
         "company": "National Center for Ontological Research",
         "url": "https://ncor-network.org/",
         "period": "Mar 2026 — Present",
-        "summary": "Architected a schema-driven WebSocket-to-gRPC/NATS gateway in Python + FastAPI that generates routing rules from Protobuf definitions, and built the multi-stage CI/CD pipeline for data-quality checks.",
-        "tags": ["Python", "FastAPI", "gRPC", "NATS"]
+        "summary": "Core developer of Ontos Cosmos, an applied-AI platform that turns any input — streaming data, audio, PDF, Excel, RDF/Turtle — into governed, fully traceable structured knowledge; generated 1,000+ knowledge graphs across 9,400+ entities, cutting expert modeling work from ~1 month to ~15 minutes.",
+        "tags": ["Agentic AI", "Knowledge Graphs", "RAG", "FastAPI"]
       },
       {
         "role": "AI Backend Engineer",
         "company": "ProseWrite",
         "url": "https://prosewrite.com/",
         "period": "May 2025 — Mar 2026",
-        "summary": "Architected a multi-persona agentic AI framework with 5+ configurable LLM agents, cutting prompt variance by 25%. Built transcription, Stripe billing and a Manifest V3 meeting-capture extension.",
-        "tags": ["LLM agents", "PostgreSQL", "Stripe", "Azure"]
+        "summary": "Built the transcription service behind a product used by 5,000+ users across author and academic communities — converting audio and video to text at 95% accuracy with speaker attribution and sub-2-minute turnaround, plus LLM post-processing for transcript cleanup and summaries.",
+        "tags": ["LLMs", "Speech-to-Text", "Azure", "Electron"]
       },
       {
-        "role": "Software Development Engineer",
+        "role": "Software Development Engineer I & II",
         "company": "Bajaj Finserv Health",
         "url": "https://www.bajajfinservhealth.in/",
-        "period": "Jan 2022 — Jul 2024",
-        "summary": "Grew from intern to SDE. Built the personalised engagement backend behind the Bajaj Health app and web homepage, serving over 2 million people, and led Wellness OPT IN, Circle of Care and TVS Chronic Care.",
-        "tags": ["Node.js", "Kafka", "Redis", "AKS"]
+        "period": "Jul 2022 — Jul 2024",
+        "summary": "Built the personalization rule engine that decided what content and health messaging each user saw across the homepage and wellness pages, serving 300+ enterprise clients, and made patient-record search ~60% faster across 10M+ records with CQRS and Elasticsearch.",
+        "tags": ["Node.js", "Kafka", "Elasticsearch", "Kubernetes"]
+      },
+      {
+        "role": "Software Development Engineer Intern",
+        "company": "Bajaj Finserv Health",
+        "url": "https://www.bajajfinservhealth.in/",
+        "period": "Jan 2022 — Jun 2022",
+        "summary": "Cut content-update dependency from 15 days to 2 by delivering a CMS portal with React and a headless CMS.",
+        "tags": ["Strapi", "Headless CMS"]
       },
       {
         "role": "Full-stack Intern",
@@ -122,7 +130,7 @@
         "url": "https://www.houseofbabas.com/",
         "period": "Dec 2020 — Mar 2021",
         "summary": "Built the cart-management backend for mobile covers and merchandise with Node.js and MongoDB.",
-        "tags": ["Node.js", "MongoDB"]
+        "tags": ["MongoDB", "REST APIs"]
       }
     ]
   },
