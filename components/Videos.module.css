@@ -1,0 +1,181 @@
+.band {
+  padding-block: 104px;
+  border-top: 0;
+  background: var(--band-bg);
+  color: var(--band-text);
+}
+
+.band :global(.eyebrow) {
+  color: var(--band-accent);
+}
+
+.band :global(.section-description) {
+  color: var(--band-muted);
+}
+
+.band a:not(:global(.btn)):hover {
+  color: var(--band-accent);
+}
+
+.headingActions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.band .viewAll {
+  color: var(--band-accent);
+}
+
+.band .viewAll:hover {
+  color: var(--band-text);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 24px;
+}
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.featuredTitle {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.side li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sideTitle {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.grid + .shorts {
+  margin-top: 64px;
+}
+
+.shortsHeading {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.shortsHeading h3 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.shortsHeading p {
+  font-size: 14px;
+  color: var(--band-faint);
+}
+
+.shortsRow {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.shortsRow li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shortTitle {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .band {
+    padding-block: 56px;
+  }
+
+  .grid {
+    display: block;
+  }
+
+  .featuredTitle {
+    font-size: 24px;
+  }
+
+  .side {
+    margin-top: 32px;
+    gap: 32px;
+  }
+
+  .sideTitle {
+    font-size: 21px;
+  }
+
+  .grid + .shorts {
+    margin-top: 32px;
+  }
+
+  .shortsHeading {
+    margin-bottom: 16px;
+  }
+
+  .shortsHeading h3 {
+    font-size: 26px;
+  }
+
+  /* Shorts scroll sideways on phones, running off the right edge. */
+  .shortsRow {
+    display: flex;
+    gap: 12px;
+    margin-right: calc(-1 * var(--gutter));
+    padding-right: var(--gutter);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+  .shortsRow::-webkit-scrollbar {
+    display: none;
+  }
+
+  .shortsRow li {
+    flex: 0 0 150px;
+    scroll-snap-align: start;
+  }
+
+  .shortTitle {
+    font-size: 14px;
+  }
+
+  .mobileActions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 24px;
+  }
+
+  .mobileActions :global(.btn) {
+    width: 100%;
+    height: 52px;
+  }
+}

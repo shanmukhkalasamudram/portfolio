@@ -1,0 +1,131 @@
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.controls :global(.text-link) {
+  margin-right: 8px;
+}
+
+/* One row at a fixed height; each photo keeps its own shape, so nothing is cropped. */
+.strip {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.strip::-webkit-scrollbar {
+  display: none;
+}
+
+.strip li {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+.photoButton {
+  display: block;
+  padding: 0;
+  border: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  background: var(--chip);
+  cursor: zoom-in;
+}
+
+.photo {
+  width: auto;
+  height: 340px;
+  transition: transform 0.3s ease;
+}
+
+.photoButton:hover .photo {
+  transform: scale(1.03);
+}
+
+/* Popup view of one photo, as large as the screen allows. */
+.fullPhoto {
+  width: auto;
+  height: auto;
+  max-width: calc(100vw - 176px);
+  max-height: calc(100dvh - 96px);
+  border-radius: 12px;
+}
+
+.lightboxArrow {
+  position: fixed;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border: 0;
+  border-radius: 26px;
+  background: rgb(245 242 236 / 0.14);
+  color: var(--band-text);
+  transform: translateY(-50%);
+}
+
+.lightboxArrow:hover {
+  background: rgb(245 242 236 / 0.26);
+}
+
+.lightboxPrevious {
+  left: 24px;
+}
+
+.lightboxNext {
+  right: 24px;
+}
+
+@media (max-width: 900px) {
+  .strip {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    overflow: visible;
+  }
+
+  .beyondMobile {
+    display: none;
+  }
+
+  .photoButton {
+    width: 100%;
+    border-radius: 18px;
+  }
+
+  .photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .mobileLink {
+    margin-top: 16px;
+  }
+
+  .fullPhoto {
+    max-width: calc(100vw - 32px);
+    max-height: calc(100dvh - 180px);
+  }
+
+  .lightboxArrow {
+    top: auto;
+    bottom: 32px;
+    transform: none;
+  }
+
+  .lightboxPrevious {
+    left: calc(50% - 64px);
+  }
+
+  .lightboxNext {
+    right: calc(50% - 64px);
+  }
+}

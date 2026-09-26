@@ -1,0 +1,312 @@
+{
+  "site": {
+    "url": "https://shanmukh.is-a.dev",
+    "title": "K V Shanmukha Sai",
+    "description": "Software engineer specializing in backend development — scalable microservices, high-performance REST APIs and event-driven systems.",
+    "credit": "Design inspired by Gobind Singh · Built by Shanmukhasai",
+    "accentColor": "#A8431F"
+  },
+
+  "profile": {
+    "name": "K V Shanmukha Sai",
+    "email": "shanmukhkalasamudram@gmail.com",
+    "photo": "/images/profile.jpg",
+    "photoAlt": "K V Shanmukha Sai at the University at Buffalo",
+    "resume": "/resume.pdf",
+    "currently": "Software Engineer, National Center for Ontological Research"
+  },
+
+  "socials": [
+    { "name": "GitHub", "icon": "github", "url": "https://github.com/shanmukhkalasamudram" },
+    { "name": "LinkedIn", "icon": "linkedin", "url": "https://www.linkedin.com/in/shanmukhasai-k-v-4bb1a2167" },
+    { "name": "Instagram", "icon": "instagram", "url": "https://www.instagram.com/mr.shanmukh87" },
+    { "name": "YouTube", "icon": "youtube", "url": "https://www.youtube.com/@thehotpath" }
+  ],
+
+  "header": {
+    "resumeLabel": "Resume"
+  },
+
+  "labels": {
+    "skipToContent": "Skip to content",
+    "sectionsMenu": "Sections",
+    "openMenu": "Open menu",
+    "playVideo": "Play: {title}",
+    "untitledVideo": "Watch on YouTube",
+    "projectGithub": "{title} on GitHub",
+    "projectLink": "More about {title}",
+    "previousPhotos": "Previous photos",
+    "nextPhotos": "Next photos",
+    "viewPhoto": "View photo {number}",
+    "previousPhoto": "Previous photo",
+    "nextPhoto": "Next photo",
+    "closePopup": "Close"
+  },
+
+  "hero": {
+    "eyebrow": "Hi, my name is",
+    "title": "K V Shanmukha Sai.",
+    "subtitle": "Architecting robust backend solutions.",
+    "subtitleHighlight": "robust",
+    "description": "Software engineer specializing in scalable microservices, high-performance APIs and agentic AI systems, and one half of The Hot Path on YouTube.",
+    "descriptionMobile": "Software engineer specializing in scalable microservices, high-performance APIs and agentic AI systems.",
+    "currentlyLabel": "Currently",
+    "actions": [
+      { "label": "Watch my videos", "href": "#videos", "icon": "play", "style": "primary", "show": "desktop" },
+      { "label": "Download resume", "href": "/resume.pdf", "icon": "download", "style": "secondary", "show": "desktop" },
+      { "label": "Download resume", "href": "/resume.pdf", "icon": "download", "style": "primary", "show": "mobile" },
+      { "label": "Get in touch", "href": "#contact", "style": "secondary", "show": "mobile" }
+    ]
+  },
+
+  "about": {
+    "navLabel": "About",
+    "label": "About",
+    "heading": "A laid-back, results-driven engineer.",
+    "headingHighlight": "results-driven",
+    "paragraphs": [
+      "I have a Master’s in Computer Science from SUNY Buffalo. I design scalable microservices, optimize high-performance REST APIs, and build intelligent systems with agentic frameworks. I like owning complex problems and mentoring teammates, and I bring React skills when the front end needs it.",
+      "Outside tech: stock markets, current politics, social issues, and photography."
+    ],
+    "skills": [
+      { "group": "Frameworks", "items": ["Node.js", "Express.js", "NestJS", "Next.js", "FastAPI"] },
+      { "group": "Languages", "items": ["JavaScript", "TypeScript", "Java", "Python"] },
+      { "group": "Databases", "items": ["MySQL", "MongoDB", "Redis", "Elasticsearch", "PostgreSQL"] },
+      { "group": "Infra & tools", "items": ["Kafka", "Docker", "AKS", "Azure Service Bus", "GitHub Actions"] }
+    ]
+  },
+
+  "experience": {
+    "navLabel": "Experience",
+    "label": "Experience",
+    "heading": "Where I’ve worked",
+    "mobileLimit": 3,
+    "showAllLabel": "See all experience",
+    "showLessLabel": "Show less",
+    "items": [
+      {
+        "role": "Software Engineer",
+        "company": "National Center for Ontological Research",
+        "url": "https://ncor-network.org/",
+        "period": "Mar 2026 — Present",
+        "summary": "Architected a schema-driven WebSocket-to-gRPC/NATS gateway in Python + FastAPI that generates routing rules from Protobuf definitions, and built the multi-stage CI/CD pipeline for data-quality checks.",
+        "tags": ["Python", "FastAPI", "gRPC", "NATS"]
+      },
+      {
+        "role": "AI Backend Engineer",
+        "company": "ProseWrite",
+        "url": "https://prosewrite.com/",
+        "period": "May 2025 — Mar 2026",
+        "summary": "Architected a multi-persona agentic AI framework with 5+ configurable LLM agents, cutting prompt variance by 25%. Built transcription, Stripe billing and a Manifest V3 meeting-capture extension.",
+        "tags": ["LLM agents", "PostgreSQL", "Stripe", "Azure"]
+      },
+      {
+        "role": "Software Development Engineer",
+        "company": "Bajaj Finserv Health",
+        "url": "https://www.bajajfinservhealth.in/",
+        "period": "Jan 2022 — Jul 2024",
+        "summary": "Grew from intern to SDE. Built the personalised engagement backend behind the Bajaj Health app and web homepage, serving over 2 million people, and led Wellness OPT IN, Circle of Care and TVS Chronic Care.",
+        "tags": ["Node.js", "Kafka", "Redis", "AKS"]
+      },
+      {
+        "role": "Full-stack Intern",
+        "company": "Sedaux Technology",
+        "url": "https://sedaux.com/",
+        "period": "Mar 2021 — May 2021",
+        "summary": "Designed and shipped a MERN website for the client The Investico in 10 days, deployed on AWS.",
+        "tags": ["MERN", "AWS"]
+      },
+      {
+        "role": "Software Development Intern",
+        "company": "HumourBaba",
+        "url": "https://www.houseofbabas.com/",
+        "period": "Dec 2020 — Mar 2021",
+        "summary": "Built the cart-management backend for mobile covers and merchandise with Node.js and MongoDB.",
+        "tags": ["Node.js", "MongoDB"]
+      }
+    ]
+  },
+
+  "projects": {
+    "navLabel": "Projects",
+    "label": "Projects",
+    "heading": "Things I’ve built",
+    "desktopLimit": 4,
+    "mobileLimit": 2,
+    "showAllLabel": "All {count} projects",
+    "showLessLabel": "Show fewer projects",
+    "items": [
+      {
+        "title": "RapidMock",
+        "description": "An API mocking and management platform: mock, validate and forward requests, with JWT auth, versioning, request logging and per-project analytics.",
+        "tags": ["Node.js", "Express.js", "JWT"],
+        "github": "https://github.com/shanmukhkalasamudram/Rapidmock-BE",
+        "website": "https://www.notion.so/RapidMock-BE-Tech-Doc-2172459543f980459d04cf652ac544f8?source=copy_link"
+      },
+      {
+        "title": "Shop-Sphere",
+        "description": "A microservice e-commerce backend on Node.js with MongoDB, Elasticsearch, Kafka and Redis, plus LLM tooling that automates unit tests and API docs.",
+        "tags": ["Kafka", "Elasticsearch", "Redis"],
+        "github": "https://github.com/shanmukhkalasamudram/Shop-Sphere",
+        "website": "https://www.notion.so/Product-Requirements-Document-PRD-and-Technical-Documentation-for-Shop-Sphere-Backend-2172459543f980abb522f82e6598adcb?source=copy_link"
+      },
+      {
+        "title": "UrbanTree+",
+        "description": "PySpark ETL pipelines that cluster 130K+ urban tree records into geospatial planting recommendations using K-Means, regression and MapReduce.",
+        "tags": ["PySpark", "ETL", "K-Means"],
+        "github": "https://github.com/shanmukhkalasamudram/UrbanTree-A-Data-Driven-Framework-for-Prioritizing-Urban-Tree-Plantation",
+        "website": "https://www.notion.so/UrbanTree-A-Data-Driven-Framework-for-Prioritizing-Urban-Tree-Plantation-2172459543f980a4bb5ef7d7bd08391e?source=copy_link"
+      },
+      {
+        "title": "ChatFlow",
+        "description": "A distributed C++ TCP chat system with offline message buffering, user blocking, broadcast messaging and real-time routing using select().",
+        "tags": ["C++", "TCP sockets", "Distributed systems"],
+        "github": "https://github.com/shanmukhkalasamudram/ChatFlow-A-Distributed-Messaging-System",
+        "website": "https://www.notion.so/Socket-2172459543f980d1bfb0c5ecb74c2536?source=copy_link"
+      },
+      {
+        "title": "Anomaly Detection with PCA & Autoencoders",
+        "description": "Predicts machine anomalies from engine and sensor data using Principal Component Analysis and autoencoders. Published as a chapter in a Springer book.",
+        "tags": ["PCA", "Autoencoders", "Machine learning"],
+        "github": "https://github.com/shanmukhkalasamudram/anamoly-detection-using-PCA-and-autoencoder",
+        "website": "https://link.springer.com/chapter/10.1007/978-981-16-6186-0_6"
+      },
+      {
+        "title": "Framework for Disease Detection",
+        "description": "A platform that helps people find doctors and symptom information, and predicts diseases with 95% accuracy.",
+        "tags": ["Python", "Flask", "NLP", "ML"],
+        "github": "https://github.com/shanmukhkalasamudram/Framework-for-Disease-Detection-and-Assistance",
+        "website": ""
+      },
+      {
+        "title": "Phishing Website Detection",
+        "description": "Compared 9 machine learning algorithms for detecting phishing websites. Published on SSRN.",
+        "tags": ["Machine learning", "Flask", "Python"],
+        "github": "https://github.com/shanmukhkalasamudram/Malware-Detection-with-Flask",
+        "website": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3853016"
+      },
+      {
+        "title": "Idea Invest Implement",
+        "description": "A web portal where sponsors explore startup ideas and back ventures, built to scale past 10,000 products.",
+        "tags": ["PHP", "MySQL", "JavaScript"],
+        "github": "https://github.com/shanmukhkalasamudram/III-WEB-APPLICATION-",
+        "website": ""
+      },
+      {
+        "title": "Digital Election System",
+        "description": "An online voting platform with face-recognition identity checks, which raised participation by over 30%.",
+        "tags": ["Node.js", "Blockchain", "Azure Face", "MongoDB"],
+        "github": "https://github.com/BhargavaramMuppuru/THE-DIGITAL-ELECTION-SYSTEM",
+        "website": ""
+      },
+      {
+        "title": "Lip Biometry on Handheld OS",
+        "description": "Research comparing lip-biometric algorithms and their compatibility with mobile operating systems. Published in IRJET.",
+        "tags": ["Lip biometry", "Research"],
+        "github": "",
+        "website": "https://www.irjet.net/archives/V8/i7/IRJET-V8I7776.pdf"
+      }
+    ]
+  },
+
+  "videos": {
+    "navLabel": "Videos",
+    "label": "Videos",
+    "heading": "On YouTube",
+    "description": "I co-create The Hot Path: system design, explained in depth. These are my latest videos.",
+    "channelUrl": "https://www.youtube.com/@thehotpath",
+    "subscribeLabel": "Subscribe",
+    "mobileSubscribeLabel": "Subscribe on YouTube",
+    "shortsHeading": "Shorts",
+    "shortsCaption": "quick ones, under a minute",
+    "homeLimit": 3,
+    "homeShortsLimit": 5,
+    "viewAllLabel": "View all {count} videos",
+    "page": {
+      "metaTitle": "Videos — K V Shanmukha Sai",
+      "metaDescription": "Every video I've made for The Hot Path, the YouTube channel I co-create: system design and agentic AI, explained in depth.",
+      "backLabel": "Back to home",
+      "heading": "All videos",
+      "description": "Everything I've made for The Hot Path, newest first. Click any video to play it here.",
+      "videosHeading": "Videos"
+    },
+    "items": [
+      { "url": "https://youtu.be/_hFfJmNAJsw" },
+      { "url": "https://youtu.be/hyjoFJNn0PM" },
+      { "url": "https://youtu.be/-YbpHdLzCko" },
+      { "url": "https://youtu.be/f7Da8XDcsSs" },
+      { "url": "https://youtu.be/QSO8idYkXLY" },
+      { "url": "https://youtu.be/oIijeWwZtZw" },
+      { "url": "https://youtu.be/O247S-E3BZ0" },
+      { "url": "https://youtu.be/lD8nXJ0UWzE" },
+      { "url": "https://youtu.be/amuz61xasLY" },
+      { "url": "https://youtu.be/nbtMy39IRA0" },
+      { "url": "https://youtu.be/kfkhK5iNquU" },
+      { "url": "https://youtu.be/Wua4LuAnw5E" }
+    ]
+  },
+
+  "photos": {
+    "navLabel": "Photos",
+    "label": "Photos",
+    "heading": "Through my lens",
+    "cloudinaryFolder": "snapfolio",
+    "limit": 100,
+    "order": "newest",
+    "mobileLimit": 4,
+    "alt": "Photo by K V Shanmukha Sai",
+    "linkLabel": "@mr.shanmukh87",
+    "mobileLinkLabel": "More on Instagram @mr.shanmukh87",
+    "linkUrl": "https://www.instagram.com/mr.shanmukh87"
+  },
+
+  "education": {
+    "navLabel": "Education",
+    "label": "Education",
+    "heading": "Learning pathways",
+    "items": [
+      {
+        "degree": "Master’s, Computer Science & Engineering",
+        "school": "University at Buffalo (SUNY)",
+        "url": "https://www.buffalo.edu/",
+        "period": "Aug 2024 — Feb 2026",
+        "score": "CGPA 3.8 / 4"
+      },
+      {
+        "degree": "Bachelor’s, Computer Science & Engineering",
+        "school": "Vellore Institute of Technology",
+        "url": "https://vit.ac.in/",
+        "period": "Jul 2018 — May 2022",
+        "score": "CGPA 8.99 / 10"
+      }
+    ]
+  },
+
+  "writing": {
+    "navLabel": "Writing",
+    "label": "Writing",
+    "heading": "From the archive",
+    "limit": 4,
+    "moreLabel": "All articles on Medium",
+    "moreUrl": "https://medium.com/@shanmukhkalasamudram",
+    "items": [
+      { "title": "The Invisible Hand of the Internet: How ISPs Dynamically Change IP Addresses", "url": "https://medium.com/@shanmukhkalasamudram/the-invisible-hand-of-the-internet-how-isps-dynamically-change-ip-addresses-b9a9f39f326a" },
+      { "title": "Stepping Up: Real-Time Challenge Leaderboards", "url": "https://medium.com/@shanmukhkalasamudram/stepping-up-crafting-a-seamless-experience-with-real-time-challenge-leaderboards-2d9ea1c005c5" },
+      { "title": "Harnessing the Power of Elasticsearch with Node.js — Part 1", "url": "https://towardsdev.com/harnessing-the-power-of-elasticsearch-seamless-integration-with-node-js-part1-1044a96b0732" },
+      { "title": "Harnessing the Power of Elasticsearch with Node.js — Part 2", "url": "https://towardsdev.com/harnessing-the-power-of-elasticsearch-seamless-integration-with-node-js-part2-9f645cb38caf" },
+      { "title": "Deployment of Service in AKS", "url": "https://medium.com/@shanmukhkalasamudram/deployment-of-service-in-aks-ae5f4fa3bc4e" },
+      { "title": "The Way Docker Build Cache Things…", "url": "https://medium.com/@shanmukhkalasamudram/the-way-docker-build-cache-things-fd49e87f9db2" },
+      { "title": "Architecting Software Systems — 1", "url": "https://medium.com/@shanmukhkalasamudram/architecting-software-systems-1-e307b0af99fb" },
+      { "title": "From Challenges to Triumphs: My Journey as a Software Development Engineer", "url": "https://medium.com/@shanmukhkalasamudram/from-challenges-to-triumphs-my-journey-as-a-software-development-engineer-85eac241127f" },
+      { "title": "Campus to Corporate Life", "url": "https://medium.com/@shanmukhkalasamudram/campus-to-corporate-life-d484c0b033ea" }
+    ]
+  },
+
+  "contact": {
+    "navLabel": "Contact",
+    "label": "What’s next?",
+    "heading": "Get in touch.",
+    "description": "My inbox is always open for interesting discussions and connections. Reach out with anything intriguing, or just to say hello.",
+    "buttonLabel": "Say hello"
+  }
+}

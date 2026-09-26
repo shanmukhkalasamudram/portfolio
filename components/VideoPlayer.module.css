@@ -1,0 +1,85 @@
+.frame {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  padding: 0;
+  border: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--band-tile);
+}
+
+.vertical {
+  aspect-ratio: 9 / 16;
+  border-radius: 14px;
+}
+
+.large {
+  border-radius: 20px;
+}
+
+.thumbnail {
+  object-fit: cover;
+}
+
+.frame iframe,
+.popupFrame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.popupFrame {
+  position: relative;
+  width: min(calc(88dvh * 16 / 9), calc(100vw - 48px), 1280px);
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #000;
+}
+
+.popupVertical {
+  width: min(calc(88dvh * 9 / 16), calc(100vw - 48px), 460px);
+  aspect-ratio: 9 / 16;
+}
+
+.play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  background: var(--band-text);
+  color: var(--ink);
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease;
+}
+
+.large .play {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+.frame:hover .play {
+  transform: translate(-50%, -50%) scale(1.06);
+}
+
+@media (max-width: 900px) {
+  .large {
+    border-radius: 16px;
+  }
+
+  .large .play {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+  }
+}

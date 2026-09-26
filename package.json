@@ -1,27 +1,25 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next build && next export"
+    "lint": "eslint .",
+    "add-photos": "node --env-file=.env.local scripts/add-photos.mjs"
   },
   "dependencies": {
-    "axios": "^1.1.3",
-    "cloudinary": "^1.32.0",
-    "next": "12.3.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.4.0",
-    "react-multi-carousel": "2.8.2",
-    "react-query": "3.39.3"
+    "cloudinary": "^2.11.0",
+    "next": "^16.3.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
-    "eslint": "8.23.1",
-    "eslint-config-next": "12.3.0",
-    "sass": "^1.102.0"
+    "eslint": "^9.39.0",
+    "eslint-config-next": "^16.3.6"
   }
 }

@@ -1,0 +1,103 @@
+.list {
+  border-bottom: 1px solid var(--rule);
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr) 300px;
+  gap: 32px;
+  padding: 28px 0;
+  border-top: 1px solid var(--rule);
+}
+
+.period {
+  padding-top: 8px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.role {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.1;
+}
+
+.company {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.company a:hover {
+  color: var(--ink);
+}
+
+.summary {
+  margin-top: 4px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--body);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 8px;
+  padding-top: 6px;
+}
+
+@media (max-width: 1100px) {
+  .item {
+    grid-template-columns: 180px minmax(0, 1fr);
+    row-gap: 16px;
+  }
+
+  .tags {
+    grid-column: 2;
+    padding-top: 0;
+  }
+}
+
+/* Phones get a compact list: dates, roles and companies only. */
+@media (max-width: 900px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 18px 0;
+  }
+
+  .period {
+    padding-top: 0;
+    font-size: 13px;
+  }
+
+  .role {
+    font-size: 25px;
+  }
+
+  .company {
+    font-size: 14px;
+  }
+
+  .summary,
+  .tags {
+    display: none;
+  }
+
+  .list:not(.expanded) .extra {
+    display: none;
+  }
+
+  .toggle {
+    margin-top: 8px;
+  }
+}
