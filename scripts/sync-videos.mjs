@@ -5,7 +5,7 @@
 //
 //   npm run sync-videos
 //
-// Runs daily on GitHub (.github/workflows/sync-videos.yml), which commits the
+// Runs weekly on GitHub (.github/workflows/sync-videos.yml), which commits the
 // file when something new shows up; Vercel then redeploys the site.
 import { readFile, writeFile } from "node:fs/promises";
 

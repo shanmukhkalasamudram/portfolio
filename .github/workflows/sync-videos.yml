@@ -1,11 +1,11 @@
-# Every day, pull new videos from the YouTube playlists in content/portfolio.json
+# Every week, pull new videos from the YouTube playlists in content/portfolio.json
 # (videos.sources) into content/videos.json. When something new shows up it is
 # committed to main, and Vercel redeploys the site.
 name: Sync YouTube videos
 
 on:
   schedule:
-    - cron: "30 15 * * *" # daily, 15:30 UTC (after the usual 13:30 UTC uploads)
+    - cron: "30 15 * * 0" # weekly, Sunday 15:30 UTC (9 PM IST)
   workflow_dispatch: # "Run workflow" button on GitHub, for an immediate sync
 
 permissions:
