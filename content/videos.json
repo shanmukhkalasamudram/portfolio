@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "url": "https://youtu.be/3jwdT70ULIs",
+      "title": "Why AI Types One Word At A Time | Agentic AI 101 #13",
+      "type": "video",
+      "published": "2026-10-01T11:30:05+00:00"
+    },
+    {
       "url": "https://youtube.com/shorts/fNyrKSK5q8A",
       "title": "Langfuse: trace every LLM call to find the step that broke",
       "type": "short",
