@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "url": "https://youtube.com/shorts/B8o3IvPYRp4",
+      "title": "Why we still need RAG when models read whole books",
+      "type": "short",
+      "published": "2026-10-29T12:30:15+00:00"
+    },
+    {
+      "url": "https://youtube.com/shorts/QHBi-dI8I6M",
+      "title": "System prompt vs user prompt — owner vs customer",
+      "type": "short",
+      "published": "2026-10-27T12:00:33+00:00"
+    },
+    {
       "url": "https://youtube.com/shorts/wzUL8nNPZkg",
       "title": "Your AI app can get a 429 on day one — fix it",
       "type": "short",
